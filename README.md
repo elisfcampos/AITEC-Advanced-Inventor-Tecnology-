@@ -22,9 +22,9 @@ O projeto é desenvolvido pelos seguintes integrantes:
 
 | Nome | Foto | Setor | Área |
 |------|------|-------|------|
-| **Elisângela Ferraz De Campos** | ![Elisângela Ferraz De Campos](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Elisangela.png) | **Arena** |**Mecânica - Execução** |
+| **Elisângela Ferraz De Campos** | ![Elisângela Ferraz De Campos](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Elisangela.png) | **Arena** |**Mecânica** |
 | **Eric Godoi** | ![Eric Godoi](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Eric.png) | **Placar** |**Programação/Eletrônica** |
-| **Gabriel Alves** | ![Gabriel Alves](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2d18b57494a65900ba45bd1563b2d952f7cb3b36/Docs/Imagens/Gabriel.png) | **Arena** |**Mecânica - Desenhos** |
+| **Gabriel Alves** | ![Gabriel Alves](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2d18b57494a65900ba45bd1563b2d952f7cb3b36/Docs/Imagens/Gabriel.png) | **Arena** |**Mecânica** |
 | **Heloisa Rodrigues** | ![Heloisa Rodrigues](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Heloisa.png) | **Controle** |**Mecânica/Eletrônica** |
 | **João Pedro Da Silva Rosa** | ![João Pedro Da Silva Rosa](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jo%C3%A3oPedroRosa.png) | **Robôs** |**Programação/Eletrônica** |
 | **João Vitor Morais Souza** | ![João Vitor Morais Souza](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jo%C3%A3oVitor.png) | **Placar** |**Mecânica/Programação** |
