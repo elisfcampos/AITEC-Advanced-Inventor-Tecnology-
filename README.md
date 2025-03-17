@@ -13,8 +13,12 @@ As regras serão estabelecidas para uma melhor organização das partidas e cont
 
 ## 🎯 Objetivos
 
-- Construção de uma arena interativa para a competição de robôs.
-- Desenvolvimento do robô para a competição de estourar balão.
+- Construção de uma arena interativa para a competição de robôs:\
+  desenvolvimento do robô para a competição de estourar balão;\
+  desenvolvimento dos controles dos robôs;\
+  desenvolvimento da arena;\
+  desenvolvimento do placar;\
+  desenvolvimento das regras do jogo.
 
 ## 👥 Equipe AITEC
 
