@@ -67,6 +67,7 @@ Segue o cronograma detalhado das etapas de entrega:
 ## Referências:
 
 **Pesquisa de Materiais, Peso e Preços**
-(https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/601309015f335233368a2acc0a279e461dcdbb88/Arena/Entr02_Pesq_Mat_Peso_Preco_Elisangela_Gabriel_26-03-25.pdf)
+(Arena/Entr02_Pesq_Mat_Peso_Preco_Elisangela_Gabriel_26-03-25.pdf)
+
 
 Fonte: autoria própria (2025).
