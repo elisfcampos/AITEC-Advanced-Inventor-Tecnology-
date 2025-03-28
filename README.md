@@ -13,12 +13,82 @@ As regras serão estabelecidas para uma melhor organização das partidas e cont
 
 ## 🎯 Objetivos
 
-- Construção de uma arena interativa para a competição de robôs:\
+Construção de uma arena interativa para a competição de robôs:\
   desenvolvimento do robô para a competição de estourar balão;\
   desenvolvimento dos controles dos robôs;\
   desenvolvimento da arena;\
   desenvolvimento do placar;\
   desenvolvimento das regras do jogo.
+
+A equipe está desenvolvendo um sistema complexo composto por vários subsistemas, sendo cada um deles atribuído a uma dupla. A partir deste ponto, cada subsistema será descrito pela respectiva dupla.
+O projeto abrange o planejamento e a execução, culminando na entrega de um Sistema Complexo composto pelos seguintes subsistemas: Arena, Controle, Robôs, Placar e as Regras estabelecidas para as competições.
+Além dos integrantes da Equipe AITEC e dos professores orientadores, todo o corpo docente deste semestre também é considerado stakeholder, pois contribui com o ensino das competências necessárias para o desenvolvimento do projeto.
+Esse Sistema Complexo será segmentado em diversas entregas ao longo dos semestres. As entregas referentes a este semestre estão organizadas no cronograma específico de cada subsistema.\
+Segue abaixo um Cronograma Macro.
+
+## Cronograma Macro - Entrega até a Feira de Soluções
+
+### 🏟️ Arena
+
+#### Entrega 2 - Minuta
+
+| Tarefas | Colaborador | Início | Fim | 
+|---------|------------|--------|-----|
+| ✅ Pesquisa de mesas dobráveis, materiais, dobradiças, pés da mesa e guarda corpo (cerca de proteção) | Elisângela/Gabriel | 14/03/2025 | 23/03/2025 |
+| ✅ Estimativa de Preços para Materiais e Ferragens| Elisângela/Gabriel | 20/03/2025 | 23/03/2025 |
+| ✅ Cálculo estimado de Peso da Arena Final | Elisângela/Gabriel | 22/03/2025 | 24/03/2025 |
+| ✅ Documentação e Apresentação | Elisângela/Gabriel | 22/03/2025 | 01/04/2025 |
+
+#### Entrega 3 - Projeto Executivo
+
+| Tarefas | Colaborador | Início | Fim |
+|---------|------------|--------|-----|
+| ☐ Pesquisa sobre Estruturas de Mesas | Elisângela/Gabriel | 04/04/2025 | 07/04/2025 |
+| ☐ Simulações Desenho 3D, Vista Explodida, Movimentação e Croqui em Catia | Elisângela/Gabriel | 07/04/2025 | 17/05/2025 |
+| ☐ Maquete/Mocape da Arena | Elisângela/Gabriel | 05/05/2025 | 12/05/2025 |
+| ☐ Compra Chapa MDF | Elisângela/Gabriel | 17/05/2025 | 20/05/2025 |
+| ☐ Documentação | Elisângela/Gabriel | 19/05/2025 | 22/05/20255 |
+
+#### Entrega 4 - Relatório Final
+
+| Tarefas | Colaborador | Início | Fim | Dias |
+|---------|------------|--------|-----|------|
+| ☐ Últimos Ajustes | Elisângela/Gabriel | 23/05/2025 | 27/05/2025 |
+| ☐ Documentação e Apresentação Final | Elisângela/Gabriel | 23/05/2025 | 28/05/2025 |
+
+
+### 🤖 Robô
+
+| Tarefas | Colaborador | Início | Fim | 
+|---------|------------|--------|-----|
+|  Pesquisa de Mercado | Kaike/João Pedro | 21/03/2025 | 25/03/2025 |
+|  Pesquisa dos Componentes | Kaike/João Pedro | 21/03/2025 | 23/03/2025 |
+|  Finalização do Cronograma | Kaike/João Pedro | 21/03/2025 | 23/03/2025 |
+|  Teste de Programação | João Pedro | 21/03/2025 | 24/03/2025 |
+|  Teste de Movimentação | Kaike/João Pedro | 26/03/2025 | 28/03/2025 |
+|  Criar Chassi | Kaike | 27/03/2025 | 27/03/2025 |
+|  Acrescentar/Modificar a Programação | João Pedro | 27/03/2025 | 27/03/2025 |
+|  Resumo de Atividades | Kaike/João Pedro | 01/04/2025 | 04/04/2025 |
+
+
+### 🎮 Controle
+
+| Tarefas | 
+|---------|
+|  Desenho do Croqui em Catia |
+|  Simulação no Wokiwi |
+|  Compra dos Componentes |
+|  Protótipo inicial |
+|  Estudar programação de calibragem do sensor |
+|  Estudar o MPU-6050, Arduino e Modulo Bluetooth HC-05 |
+
+
+### 📊 Placar 
+
+
+**Para acesso ao cronograma detalhado acesse a pasta relativa ao subsistema**, informações em 📂 Estrutura do Repositório logo abaixo 
+
+  
 
 ## 👥 Equipe AITEC
 
