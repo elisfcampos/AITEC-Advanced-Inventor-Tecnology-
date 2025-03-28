@@ -23,7 +23,7 @@ Construção de uma arena interativa para a competição de robôs:\
 A equipe está desenvolvendo um sistema complexo composto por vários subsistemas, sendo cada um deles atribuído a uma dupla. A partir deste ponto, cada subsistema será descrito pela respectiva dupla.
 O projeto abrange o planejamento e a execução, culminando na entrega de um Sistema Complexo composto pelos seguintes subsistemas: Arena, Controle, Robôs, Placar e as Regras estabelecidas para as competições.
 Além dos integrantes da Equipe AITEC e dos professores orientadores, todo o corpo docente deste semestre também é considerado stakeholder, pois contribui com o ensino das competências necessárias para o desenvolvimento do projeto.
-Esse Sistema Complexo será segmentado em diversas entregas ao longo dos semestres. As entregas referentes a este semestre estão organizadas no cronograma específico de cada subsistema.\
+Esse Sistema Complexo será segmentado em diversas entregas ao longo dos semestres. As entregas referentes a este semestre estão organizadas nos cronogramas específicos de cada subsistema.\
 Segue abaixo um Cronograma Macro.
 
 ## Cronograma Macro - Entrega até a Feira de Soluções
@@ -45,7 +45,7 @@ Segue abaixo um Cronograma Macro.
 |---------|------------|--------|-----|
 | ☐ Pesquisa sobre Estruturas de Mesas | Elisângela/Gabriel | 04/04/2025 | 07/04/2025 |
 | ☐ Simulações Desenho 3D, Vista Explodida, Movimentação e Croqui em Catia | Elisângela/Gabriel | 07/04/2025 | 17/05/2025 |
-| ☐ Maquete/Mocape da Arena | Elisângela/Gabriel | 05/05/2025 | 12/05/2025 |
+| ☐ Maquete/Mockup da Arena | Elisângela/Gabriel | 05/05/2025 | 12/05/2025 |
 | ☐ Compra Chapa MDF | Elisângela/Gabriel | 17/05/2025 | 20/05/2025 |
 | ☐ Documentação | Elisângela/Gabriel | 19/05/2025 | 22/05/20255 |
 
