@@ -73,17 +73,42 @@ Segue abaixo um Cronograma Macro.
 
 ### 🎮 Controle
 
+#### Entrega 1 - Pré-Projeto
+
 | Tarefas | Caloborador | Início | Fim |
 |---------|------------|--------|-----|
-|  Pesquisa de modelos de controles | Heloisa / José | 24/02/2025 | 13/03/2025 |
-|  Escoha do controle por movimento, componentes | Heloisa / José | 17/03/2025 | 04/04/2025 |
-|  Testes iniciais de componentes e programação| Heloisa / José | 07/04/2025 | 18/04/2025 |
-|  Intregração de sistesma e ajustes de programação | Heloisa / José | 21/04/2025 | 09/05/2025 |
-|  Comunição via Bluetootha | Heloisa / José | 21/04/2025 | 09/05/2025 |
-|  Montagem de um prototipo fisco | Heloisa / José | 12/05/2025 | 16/05/2025 |
-|  Calibração de sensor, Testes | Heloisa / José | 19/05/2025 | 22/05/2025 |
-|  Prototipo finalizado, comunição e progração funcionando | Heloisa / José | 26/05/2025 | 02/06/2025 |
+| ✅ Pesquisa de modelos e opções de controles | Heloisa / José | 24/02/2025 | 13/03/2025 |
+| ✅ Pesquisa de componentes e montagem de controles | Heloisa / José | 24/02/2025 | 13/03/2025 |
+| ✅ Documentação/ Apresentação | Heloisa / José | 24/02/2025 | 14/03/2025 |
 
+#### Entrega 2 - Minuta
+
+| Tarefas | Caloborador | Início | Fim |
+|---------|------------|--------|-----|
+| ✅ Escoha do controle por movimento e componentes | Heloisa / José | 17/03/2025 | 21/03/2025 |
+| ✅ Pesquisa dos componentes MPU6050 - Giroscópio Acelerômetro | Heloisa / José | 24/03/2025 | 28/03/2025 |
+|  Integração de componentes iniciais | Heloisa / José | 27/03/2025 | 02/04/2025 |
+|  Documentação/ Apresentação | Heloisa / José | 31/03/2025 | 04/04/2025 |
+
+#### Entrega 3 - Projeto Executivo
+
+| Tarefas | Colaborador | Início | Fim |
+|---------|------------|--------|-----|
+|  Testes iniciais de componentes e programação| Heloisa / José | 07/04/2025 | 18/04/2025 |
+|  Comunição via Bluetootha | Heloisa / José | 16/04/2025 | 02/05/2025 |
+|  Intregração de sistesma e ajustes de programação | Heloisa / José | 21/04/2025 | 02/05/2025 |
+|  Calibração de sensor, Testes | Heloisa / José | 05/05/2025 | 16/05/2025 |
+|  Montagem de um prototipo fisco | Heloisa / José | 14/05/2025 | 20/05/2025 |
+|  Documentação/ Apresentação | Heloisa / José | 19/05/2025 | 23/05/2025 |
+
+#### Entrega 4 - Relatório Final
+
+| Tarefas | Colaborador | Início | Fim | Dias |
+|---------|------------|--------|-----|------|
+|  Prototipo finalizado, comunição e progração funcionando | Heloisa / José | 26/05/2025 | 30/05/2025 |
+|  Feira de Soluções : Prototipo funcionando | Heloisa / José | 29/05/2025 |
+|  Finalização do projeto, sistemas integrados e funcionando | Heloisa / José | 02/06/2025 | 06/06/2025 |
+|  Documentação/ Apresentação final | Heloisa / José | 09/06/2025 | 13/06/2025 |
 
 ### 📊 Placar 
 
