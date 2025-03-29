@@ -76,9 +76,10 @@ Segue abaixo um Cronograma Macro.
 | Tarefas | Caloborador | Início | Fim |
 |---------|------------|--------|-----|
 |  Pesquisa de modelos de controles | Heloisa / José | 24/02/2025 | 13/03/2025 |
-|  Escoha do controle por movimento, pesquisa de componentes | Heloisa / José | 17/03/2025 | 04/04/2025 |
+|  Escoha do controle por movimento, componentes | Heloisa / José | 17/03/2025 | 04/04/2025 |
 |  Testes iniciais de componentes e programação| Heloisa / José | 07/04/2025 | 18/04/2025 |
-|  Intregração de sistesma e ajustes de programação | Comunição via Bluetooth | | Heloisa / José | 21/04/2025 | 09/05/2025 |
+|  Intregração de sistesma e ajustes de programação | Heloisa / José | 21/04/2025 | 09/05/2025 |
+| Comunição via Bluetootha | Heloisa / José | 21/04/2025 | 09/05/2025 |
 |  Montagem de um prototipo fisco | Heloisa / José | 12/05/2025 | 16/05/2025 |
 |  Calibração de sensor | Testes | Heloisa / José | 19/05/2025 | 22/05/2025 |
 |  Prototipo finalizado, comunição e progração funcionando | Heloisa / José | 26/05/2025 | 02/06/2025 |
