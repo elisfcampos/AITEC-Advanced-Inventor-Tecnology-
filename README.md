@@ -103,7 +103,7 @@ Segue abaixo um Cronograma Macro.
 
 #### Entrega 4 - Relatório Final
 
-| Tarefas | Colaborador | Início | Fim | Dias |
+| Tarefas | Colaborador | Início | Fim |
 |---------|------------|--------|-----|------|
 |  Prototipo finalizado, comunição e progração funcionando | Heloisa / José | 26/05/2025 | 30/05/2025 |
 |  Feira de Soluções : Prototipo funcionando | Heloisa / José | 29/05/2025 |
