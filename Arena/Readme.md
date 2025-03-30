@@ -67,7 +67,8 @@ Segue o cronograma detalhado das etapas de entrega:
 ## Referências:
 
 **Pesquisa de Materiais, Peso e Preços**
-(Arena/Entr02_Pesq_Mat_Peso_Preco_Elisangela_Gabriel_26-03-25.pdf)
+(Arena/Entr02_Pesq_Mat_Peso_Preco_Elisangela_Gabriel_26-03-25.pdf)\
+**Cronograma Específico** (Arena/Entr02_Cronograma_Elisangela_Gabriel.xlsx)
 
 
 Fonte: autoria própria (2025).
