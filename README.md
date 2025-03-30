@@ -110,11 +110,44 @@ Segue abaixo um Cronograma Macro.
 |  Finalização do projeto, sistemas integrados e funcionando | Heloisa / José | 02/06/2025 | 06/06/2025 |
 |  Documentação/ Apresentação final | Heloisa / José | 09/06/2025 | 13/06/2025 |
 
-### 📊 Placar 
+### 📊 Placar
+
+#### Sprint 01 - 14/03/25
+| Tarefa | Colaborador | Progresso | Início | Fim |
+|--------|-------------|-----------|--------|-----|
+| Formação da Dupla | Eric/João Vitor | 100% | 28/02/25 | 01/03/25 |
+| Pesquisa Inicial | Eric/João Vitor | 100% | 28/02/25 | 05/03/25 |
+| Brainstorm da Dupla | Eric/João Vitor | 100% | 28/02/25 | 06/03/25 |
+| Organização do GitHub (Placar) | Eric/João Vitor | 100% | 28/02/25 | 12/03/25 |
+
+#### Sprint 02 - 04/04/25
+| Tarefa | Colaborador | Progresso | Início | Fim |
+|--------|-------------|-----------|--------|-----|
+| Cronograma do Placar | Eric/João Vitor | 50% | 17/03/25 | 17/03/25 |
+| Estudo das Regras | Eric/João Vitor | 100% | 17/03/25 | 17/03/25 |
+| Estudo de materiais e componentes | Eric/João Vitor | 0% | 17/03/25 | 17/03/25 |
+| Organização do GitHub (Placar) | Eric/João Vitor | 0% | 17/03/25 | 17/03/25 |
+
+#### Sprint 03 - 23/05/25
+| Tarefa | Colaborador | Progresso |
+|--------|-------------|-----------|
+| Primeira montagem do projeto | Eric/João Vitor | 0% |
+| Organização do GitHub (Placar) | Eric/João Vitor | 0% |
+
+#### Feira de Soluções - 29/05/25
+| Tarefa | Colaborador | Progresso |
+|--------|-------------|-----------|
+| Apresentação do projeto "V0" | - | 0% |
+| Organização do GitHub (Placar) | Eric/João Vitor | 0% |
+
+#### Sprint 04 - 13/06/25
+| Tarefa | Colaborador | Progresso |
+|--------|-------------|-----------|
+| Montagem de documentações finais | - | 0% |
+| Organização do GitHub (Placar) Completo | Eric/João Vitor | 0% |
 
 
-**Para acesso ao cronograma detalhado acesse a pasta relativa ao subsistema**, informações em 📂 Estrutura do Repositório logo abaixo 
-
+**Para acesso ao cronograma detalhado acesse a pasta relativa ao subsistema**, informações em 📂 Estrutura do Repositório logo abaixo\
   
 
 ## 👥 Equipe AITEC
