@@ -59,16 +59,18 @@ Segue abaixo um Cronograma Macro.
 
 ### 🤖 Robô
 
-| Tarefas | Colaborador | Início | Fim | 
-|---------|------------|--------|-----|
-|  Pesquisa de Mercado | Kaike/João Pedro | 21/03/2025 | 25/03/2025 |
-|  Pesquisa dos Componentes | Kaike/João Pedro | 21/03/2025 | 23/03/2025 |
-|  Finalização do Cronograma | Kaike/João Pedro | 21/03/2025 | 23/03/2025 |
-|  Teste de Programação | João Pedro | 21/03/2025 | 24/03/2025 |
-|  Teste de Movimentação | Kaike/João Pedro | 26/03/2025 | 28/03/2025 |
-|  Criar Chassi | Kaike | 27/03/2025 | 27/03/2025 |
-|  Acrescentar/Modificar a Programação | João Pedro | 27/03/2025 | 27/03/2025 |
-|  Resumo de Atividades | Kaike/João Pedro | 01/04/2025 | 04/04/2025 |
+| Atividade                                                             | Responsavéis             | Início      | Fim        |
+|-----------------------------------------------------------------------|--------------------------|------------ |------------|
+| Pesquisa de Mercado                                                   | Kaike e João Pedro       | 21/03/2025  | 25/03/2025 |
+| Definição dos Componentes eletrônicos necessários                     | Kaike e João Pedro       | 21/03/2025  | 23/03/2025 |
+| Finalização do Cronograma até entrega sprint 2                        | Kaike e João Pedro       | 21/03/2025  | 23/03/2025 |
+| Desenvolver Protótipo de placa de fixação dos componentes eletrônicos | Kaike Anjos              | 21/03/2025  | 24/03/2025 |
+| Teste de Programação e Movimentação                                   | Kaike Anjos              | 22/03/2025  | 28/03/2025 |
+| Desenvolver Cronograma detalhado até 4ª sprint e Minuta de Projeto    | Kaike Anjos              | 30/03/2025  | 30/03/2025 |
+| Desenvolver placa de fixação dos componentes eletrônicos em CAD       | Kaike Anjos              | 30/03/2025  | 30/03/2025 |
+| Resumo de Atividades                                                  | Kaike e João Pedro       | 01/04/2025  | 04/04/2025 |
+
+
 
 
 ### 🎮 Controle
