@@ -32,3 +32,9 @@ https://www.ariat-tech.pt/blog/optimizing-performance-with-mpu-6050-setup,calibr
 https://maker.pro/arduino/tutorial/how-to-control-a-servo-with-an-arduino-and-mpu6050
 https://www.peteletricaufu.com.br/static/ceel/artigos/artigo_774.pdf
 https://howtomechatronics.com/tutorials/arduino/arduino-and-mpu6050-accelerometer-and-gyroscope-tutorial/
+https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050
+https://minov.in/mpu-6050-teapot-project/
+https://www.instructables.com/MPU-6050-Teapot-Project/
+https://maker.pro/arduino/tutorial/how-to-interface-arduino-and-the-mpu-6050-sensor
+https://www.youtube.com/watch?v=C3DpeHGw3Bg&t=1s
+https://maker.pro/arduino/tutorial/how-to-interface-arduino-and-the-mpu-6050-sensor
