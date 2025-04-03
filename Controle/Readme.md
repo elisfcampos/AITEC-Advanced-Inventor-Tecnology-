@@ -38,3 +38,4 @@ https://www.instructables.com/MPU-6050-Teapot-Project/
 https://maker.pro/arduino/tutorial/how-to-interface-arduino-and-the-mpu-6050-sensor
 https://www.youtube.com/watch?v=C3DpeHGw3Bg&t=1s
 https://maker.pro/arduino/tutorial/how-to-interface-arduino-and-the-mpu-6050-sensor
+https://www.electronicshub.org/getting-started-arduino-mpu6050/
