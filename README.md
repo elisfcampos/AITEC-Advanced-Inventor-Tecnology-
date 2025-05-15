@@ -127,26 +127,28 @@ Segue abaixo um Cronograma Macro.
 |--------|-------------|-----------|--------|-----|
 | Cronograma do Placar | Eric/João Vitor | 50% | 17/03/25 | 17/03/25 |
 | Estudo das Regras | Eric/João Vitor | 100% | 17/03/25 | 17/03/25 |
-| Estudo de materiais e componentes | Eric/João Vitor | 0% | 17/03/25 | 17/03/25 |
-| Organização do GitHub (Placar) | Eric/João Vitor | 0% | 17/03/25 | 17/03/25 |
+| Estudo de materiais e componentes | Eric/João Vitor | 100% | 17/03/25 | 17/03/25 |
+| Organização do GitHub (Placar) | Eric/João Vitor | 100% | 17/03/25 | 17/03/25 |
 
-#### Sprint 03 - 23/05/25
+#### Sprint 03 - 30/05/25
 | Tarefa | Colaborador | Progresso |
 |--------|-------------|-----------|
-| Primeira montagem do projeto | Eric/João Vitor | 0% |
-| Organização do GitHub (Placar) | Eric/João Vitor | 0% |
-
-#### Feira de Soluções - 29/05/25
-| Tarefa | Colaborador | Progresso |
-|--------|-------------|-----------|
-| Apresentação do projeto "V0" | - | 0% |
-| Organização do GitHub (Placar) | Eric/João Vitor | 0% |
-
+| Primeira montagem do projeto | Eric/João Vitor | 50% |
+| Testes da programação no placar | Eric/João Vitor | 0% |
+| Organização do GitHub (Placar) | Eric/João Vitor | 20% |
+ 
 #### Sprint 04 - 13/06/25
 | Tarefa | Colaborador | Progresso |
 |--------|-------------|-----------|
 | Montagem de documentações finais | - | 0% |
 | Organização do GitHub (Placar) Completo | Eric/João Vitor | 0% |
+
+#### Feira de Soluções - 17/06/25
+| Tarefa | Colaborador | Progresso |
+|--------|-------------|-----------|
+| Apresentação do projeto "V0" | Eric/João Vitor | 0% |
+| Organização do GitHub (Placar) | Eric/João Vitor | 0% |
+
 
 
 **Para acesso ao cronograma detalhado acesse a pasta relativa ao subsistema**, informações em 📂 Estrutura do Repositório logo abaixo\
