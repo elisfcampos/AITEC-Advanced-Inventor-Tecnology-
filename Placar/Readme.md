@@ -39,7 +39,7 @@
 | Tarefas | Colaborador | Progresso | Início | Fim |
 |---------|------------|--------|-----|------|
 | Montagem de documentos finais | Eric | 05% | 02/06/25 | xx/xx/xx |
-| Organização final do GitHub | Eric/João Vitor | 02/06/25 | xx/xx/xx |
+| Organização final do GitHub | Eric/João Vitor | 00% | 02/06/25 | xx/xx/xx |
 
 ### FEIRA DE SOLUÇÕES!🎉 - 17/06/25
 | Tarefas | Colaborador | Progresso | Início | Fim |
