@@ -4,12 +4,7 @@
 
 ## 📌 Introdução
 
-Neste primeiro momento percorremos através de pesquisas na internet, bem como brainstorms para nossas decisões no sentido de criar uma forma inicial para o projeto.
-A arena de robôs será projetada para competições de robôs remoto controladas, incluindo um placar para marcação de pontos, bem como um cronômetro para controle das partidas.
-Os robôs serão diferenciados por cor para identificação e divisão de times. Haverá um controle remoto para cada robô.
-O Placar será controlado por botões inseridos na lateral da mesa.
-As regras serão estabelecidas para uma melhor organização das partidas e controladas por um Juiz que será da nossa Equipe.
-
+O objetivo deste projeto é o desenvolvimento de uma arena para competição de robôs. A arena de robôs será projetada para competições de robôs remoto controladas, incluindo um placar para marcação de pontos, bem como um cronômetro para controle das partidas. Os robôs serão diferenciados por cor para identificação e divisão de times. Haverá um controle remoto para cada robô. O placar será controlado por botões inseridos na lateral da mesa. As regras serão estabelecidas para uma melhor organização das partidas e controladas por um juiz que será da nossa equipe.
 
 ## 🎯 Objetivos
 
