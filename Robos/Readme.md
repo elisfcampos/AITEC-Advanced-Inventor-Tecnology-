@@ -105,3 +105,18 @@ Para os motores utilizaremos 2 motores DC 3-6V com caixa de redução de aço, 6
 | ✅ Desenvolver Cronograma detalhado até 4 sprint e a Minuta de Projeto referente ao robô  | Kaike  | 09/03/2025 | 30/03/2025 | 21 |
 | ✅ Desenvolver placa de fixação dos componentes eletrônicos em CAD  | Kaike  | 12/03/2025 | 30/03/2025 | 18 |
 | ✅ Resumo de Atividades  | João Pedro | 26/03/2025 | 01/04/2025 | 06 |
+
+# **Entrega 03**
+
+## Cronograma 03 - Entrega 30/05/2025 
+
+| Tarefas | Colaborador | Início | Fim | Dias |
+|---------|------------|--------|-----|------|
+| ✅ Desenvolver o Fluxograma do Robô | João Pedro | 10/05/2025 | 21/04/2025 | 11 |
+| ✅ Avaliar a necessidade de modificações para compatibilidade com o suporte | Kaike e João Pedro | 09/04/2025 | 21/04/2025 | 12 |
+| ✅ Imprimir em 3D os suportes do Robô  | Kaike | 06/04/2025 | 25/04/2025 | 19 |
+| ✅ Visualização dos Testes do Robô com o Suporte | Kaike | 10/05/2025 | 15/05/2025 | 05 |
+| ✅ Finalização do Projeto Executivo  | Kaike Anjos e João Pedro | 23/05/2025 | 28/05/2025 | 05 |
+| ✅ Finalização do Cronograma até entrega sprint 3 | Kaike Anjos e João Pedro  | 09/05/2025 | 29/05/2025 | 20 |
+| ✅ Resumo de Atividades  | João Pedro | 23/03/2025 | 29/04/2025 | 06 |
+
