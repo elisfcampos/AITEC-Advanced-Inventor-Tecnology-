@@ -31,9 +31,9 @@
 ### Sprint 03 - 30/05/25
 | Tarefas | Colaborador | Progresso | Início | Fim |
 |---------|------------|--------|-----|------|
-| Primeira montagem do projeto | João Vitor/Eric | 75% | 11/05/25 | xx/xx/xx |
-| Teste da programação no placar | João Vitor | 25% | 16/05/25 | xx/xx/xx |
-| Organização do GitHub | Eric/João Vitor | 50% | 11/05/25 | 26/05/25 |
+| Primeira montagem do projeto | João Vitor/Eric | 100% | 11/05/25 | xx/xx/xx |
+| Teste da programação no placar | João Vitor | 75% | 16/05/25 | xx/xx/xx |
+| Organização do GitHub | Eric/João Vitor | 75% | 11/05/25 | 26/05/25 |
 
 ### Sprint 04 - 13/06/25
 | Tarefas | Colaborador | Progresso | Início | Fim |
