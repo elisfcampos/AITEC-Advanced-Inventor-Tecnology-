@@ -92,10 +92,10 @@ Segue abaixo um Cronograma Macro.
 | Tarefas | Colaborador | Início | Fim |
 |---------|------------|--------|-----|
 |  Testes iniciais de componentes e programação| Heloisa / José | 07/04/2025 | 18/04/2025 |
-|  Comunição via Bluetootha | Heloisa / José | 16/04/2025 | 02/05/2025 |
-|  Intregração de sistesma e ajustes de programação | Heloisa / José | 21/04/2025 | 02/05/2025 |
-|  Calibração de sensor, Testes | Heloisa / José | 05/05/2025 | 16/05/2025 |
-|  Montagem de um prototipo fisco | Heloisa / José | 14/05/2025 | 20/05/2025 |
+|  Montagem de um circuito para teste | Heloisa / José | 16/04/2025 | 02/05/2025 |
+|  Ajustes de programação | Heloisa / José | 21/04/2025 | 02/05/2025 |
+|  Testes e incio da configuração do bluettoth | Heloisa / José | 05/05/2025 | 16/05/2025 |
+|  Modelagem da case para colocar os componentes | Heloisa / José | 14/05/2025 | 20/05/2025 |
 |  Documentação/ Apresentação | Heloisa / José | 19/05/2025 | 23/05/2025 |
 
 #### Entrega 4 - Relatório Final
