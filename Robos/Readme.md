@@ -193,6 +193,16 @@ O robô foi montado seguindo os desenhos técnicos e o roteiro de montagem. Fora
 
 ![Montagem04 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Imagens/Sprint%2002/montagem%2004.png)
 
+![Montagem05 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Imagens/Sprint%2002/Imagem1.png)
+
+![Montagem06 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Imagens/Sprint%2002/Imagem2.png)
+
+![Montagem07 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Imagens/Sprint%2002/Imagem3.png)
+
+![Montagem08 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Imagens/Sprint%2002/Imagem4.png)
+
+![Montagem09 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Imagens/Sprint%2002/Imagem5.png)
+
 ### **Testes**
 
 ![Teste01 Video](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Videos%20da%20Movimenta%C3%A7%C3%A3o%20do%20Rob%C3%B4/WhatsApp%20Video%202025-05-14%20at%2017.55.33%20(1).mp4)
@@ -200,6 +210,8 @@ O robô foi montado seguindo os desenhos técnicos e o roteiro de montagem. Fora
 ![Teste02 Video](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Videos%20da%20Movimenta%C3%A7%C3%A3o%20do%20Rob%C3%B4/WhatsApp%20Video%202025-05-14%20at%2017.55.33.mp4)
 
 ![Teste03 Video](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Videos%20da%20Movimenta%C3%A7%C3%A3o%20do%20Rob%C3%B4/WhatsApp%20Video%202025-05-14%20at%2017.55.34.mp4)
+
+![Teste04 Video](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Videos%20da%20Movimenta%C3%A7%C3%A3o%20do%20Rob%C3%B4/WhatsApp%20Video%202025-05-15%20at%2022.39.59.mp4)
 
 ## Cronograma 03 - Entrega 30/05/2025 
 
