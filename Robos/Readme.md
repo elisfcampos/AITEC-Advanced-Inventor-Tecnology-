@@ -184,10 +184,22 @@ O robô foi montado seguindo os desenhos técnicos e o roteiro de montagem. Fora
 - Funcionalidade da movimentação;
 - Robustez da estrutura;
 - Tempo de resposta aos comandos via Bluetooth.
-- 
+
+![Montagem01 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Imagens/Sprint%2002/montagem%2001.jpg)
+
+![Montagem02 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Imagens/Sprint%2002/montagem%2002.jpg)
+
+![Montagem03 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Imagens/Sprint%2002/montagem%2003.jpg.png)
+
+![Montagem04 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Imagens/Sprint%2002/montagem%2004.png)
 
 ### **Testes**
 
+![Teste01 Video](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Videos%20da%20Movimenta%C3%A7%C3%A3o%20do%20Rob%C3%B4/WhatsApp%20Video%202025-05-14%20at%2017.55.33%20(1).mp4)
+
+![Teste02 Video](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Videos%20da%20Movimenta%C3%A7%C3%A3o%20do%20Rob%C3%B4/WhatsApp%20Video%202025-05-14%20at%2017.55.33.mp4)
+
+![Teste03 Video](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Videos%20da%20Movimenta%C3%A7%C3%A3o%20do%20Rob%C3%B4/WhatsApp%20Video%202025-05-14%20at%2017.55.34.mp4)
 
 ## Cronograma 03 - Entrega 30/05/2025 
 
