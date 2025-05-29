@@ -102,9 +102,8 @@ Segue abaixo um Cronograma Macro.
 
 | Tarefas | Colaborador | Início | Fim |
 |---------|------------|--------|-----|
-|  Prototipo finalizado, comunição e progração funcionando | Heloisa / José | 26/05/2025 | 30/05/2025 |
-|  Feira de Soluções : Prototipo funcionando | Heloisa / José | 29/05/2025 |
-|  Finalização do projeto, sistemas integrados e funcionando | Heloisa / José | 02/06/2025 | 06/06/2025 |
+|  Prototipo montado e teste de conexão do modulo bluetooth | Heloisa / José | 26/05/2025 | 30/05/2025 |
+|  Projeto monatado e funcionado| Heloisa / José | 02/06/2025 | 06/06/2025 |
 |  Documentação/ Apresentação final | Heloisa / José | 09/06/2025 | 13/06/2025 |
 
 ### 📊 Placar
