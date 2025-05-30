@@ -177,7 +177,7 @@ O projeto é desenvolvido pelos seguintes integrantes:
 | **Heloisa Rodrigues** | ![Heloisa Rodrigues](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Heloisa.png) | **Controle** |**Mecânica/Eletrônica** |
 | **João Pedro Da Silva Rosa** | ![João Pedro Da Silva Rosa](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jo%C3%A3oPedroRosa.png) | **Robôs** |**Programação/Eletrônica** |
 | **João Vitor Morais Souza** | ![João Vitor Morais Souza](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jo%C3%A3oVitor.png) | **Placar** |**Mecânica/Programação** |
-| **José Eduardo Teixeira Dos Reis** | ![José Eduardo Teixeira Dos Reis](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jos%C3%A9Eduardo.png) | **Controle** |**Programação/Eletrônica** |
+| **José Eduardo Teixeira Dos Reis** | ![José Eduardo Teixeira Dos Reis](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jos%C3%A9Eduardo.png) | **Controle** |**Programação/Eletrônica** | 
 | **Kaike Elias Ferreira Dos Anjos** | ![Kaike Elias Ferreira Dos Anjos](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Kaike.png) | **Robôs** |**Mecânica/Eletrônica** |
 
 
@@ -188,21 +188,20 @@ O projeto é desenvolvido pelos seguintes integrantes:
 
 ## 📂 Estrutura do Repositório  
 
-- 📄 <ins>Docs</ins> - Cronograma e documentação do projeto  
- - 🖼️ <ins>Imagens</ins> - Imagens dos integrantes da equipe  
-  - 📜 <ins>Regras da competição</ins> - Regras das competições de robôs  
-- 🏟️ <ins>Arena</ins> - Desenvolvimento da Arena  
-- 🎮 <ins>Controle</ins> - Desenvolvimento do Controle  
-- 📊 <ins>Placar</ins> - Desenvolvimento do Placar  
-- 🤖 <ins>Robôs</ins> - Desenvolvimento dos Robôs  
+- [📄 <ins>Docs</ins> - Cronograma e documentação do projeto](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/90a3c7957e53083e2ca0a7e418125d535c47a29e/Docs)
+    - [📜 <ins>\Regras da competição</ins> - Regras das competições de robôs](https://m.youtube.com/watch?v=AAguOOEWLuc&pp=ygUSI2ppZ2ZlaXRvcGFyYXZvY8Oq)
+- [🏟️ <ins>Arena</ins> - Desenvolvimento da Arena](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/90a3c7957e53083e2ca0a7e418125d535c47a29e/Arena)
+- [🎮 <ins>Controle</ins> - Desenvolvimento do Controle](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/90a3c7957e53083e2ca0a7e418125d535c47a29e/Controle)
+- [📊 <ins>Placar</ins> - Desenvolvimento do Controle](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/90a3c7957e53083e2ca0a7e418125d535c47a29e/Placar) 
+- [🤖 <ins>Robôs</ins> - Desenvolvimento dos Robôs](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/90a3c7957e53083e2ca0a7e418125d535c47a29e/Robos) 
 
 
 
-## 🛠️ Tecnologias Utilizadas *(Ainda em Estudo)*
+## 🛠️ Tecnologias Utilizadas
 
 - **Linguagem de Programação:** (Ex: C++, Python, Arduino)
-- **Plataforma de Desenvolvimento:** (Ex: Arduino, Raspberry Pi, Esp32)
-- **Ferramentas de Modelagem:** (Catia, Autocad, etc)
+- **Plataforma de Desenvolvimento:** (Ex: Arduino e Esp32)
+- **Ferramentas de Modelagem:** (Catia)
 
 ## 🔗 Links Úteis
 
