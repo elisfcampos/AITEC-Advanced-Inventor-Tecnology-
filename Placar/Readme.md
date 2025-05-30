@@ -38,8 +38,8 @@
 ### Sprint 03 - 30/05/25
 | Tarefas | Colaborador | Progresso | Início | Fim |
 |---------|------------|--------|-----|------|
-| Primeira montagem do projeto | João Vitor/Eric | 100% | 11/05/25 | xx/xx/xx |
-| Teste da programação no placar | João Vitor | 100% | 16/05/25 | xx/xx/xx |
+| Primeira montagem do projeto | João Vitor/Eric | 100% | 11/05/25 | 16/05/25 |
+| Teste da programação no placar | João Vitor | 100% | 16/05/25 | 29/05/25 |
 | Organização do GitHub | Eric/João Vitor | 75% | 11/05/25 | 26/05/25 |
 
 ### Sprint 04 - 13/06/25
@@ -51,4 +51,4 @@
 ### FEIRA DE SOLUÇÕES!🎉 - 17/06/25
 | Tarefas | Colaborador | Progresso | Início | Fim |
 |---------|------------|--------|-----|------|
-| Apresentação do projeto "V0" | Eric/João Vitor | 100% | 17/06/25 | 17/06/25 |
+| Apresentação do projeto "V0" | Eric/João Vitor | 00% | 17/06/25 | 17/06/25 |
