@@ -144,15 +144,15 @@ Segue abaixo um Cronograma Macro.
 #### Sprint 03 - 30/05/25
 | Tarefa | Colaborador | Progresso |
 |--------|-------------|-----------|
-| Primeira montagem do projeto | Eric/João Vitor | 50% |
-| Testes da programação no placar | Eric/João Vitor | 0% |
-| Organização do GitHub (Placar) | Eric/João Vitor | 20% |
+| Primeira montagem do projeto | Eric/João Vitor | 100% |
+| Testes da programação no placar | Eric/João Vitor | 100% |
+| Organização do GitHub (Placar) | Eric/João Vitor | 75% |
  
 #### Sprint 04 - 13/06/25
 | Tarefa | Colaborador | Progresso |
 |--------|-------------|-----------|
-| Montagem de documentações finais | - | 0% |
-| Organização do GitHub (Placar) Completo | Eric/João Vitor | 0% |
+| Montagem de documentações finais | - | 65% |
+| Organização do GitHub (Placar) Completo | Eric/João Vitor | 50% |
 
 #### Feira de Soluções - 17/06/25
 | Tarefa | Colaborador | Progresso |
