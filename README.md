@@ -189,7 +189,7 @@ O projeto é desenvolvido pelos seguintes integrantes:
 ## 📂 Estrutura do Repositório  
 
 - [📄 <ins>Docs</ins> - Cronograma e documentação do projeto](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/90a3c7957e53083e2ca0a7e418125d535c47a29e/Docs)
-    - [📜 <ins>\Regras da competição</ins> - Regras das competições de robôs](https://m.youtube.com/watch?v=AAguOOEWLuc&pp=ygUSI2ppZ2ZlaXRvcGFyYXZvY8Oq)
+    - [📜 <ins>\Regras da competição</ins> - Regras das competições de robôs](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/72f7e2aa9266da25745f4b404456b334a91db2e3/Docs/Regras%20da%20competi%C3%A7%C3%A3o)
 - [🏟️ <ins>Arena</ins> - Desenvolvimento da Arena](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/90a3c7957e53083e2ca0a7e418125d535c47a29e/Arena)
 - [🎮 <ins>Controle</ins> - Desenvolvimento do Controle](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/90a3c7957e53083e2ca0a7e418125d535c47a29e/Controle)
 - [📊 <ins>Placar</ins> - Desenvolvimento do Controle](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/90a3c7957e53083e2ca0a7e418125d535c47a29e/Placar) 
