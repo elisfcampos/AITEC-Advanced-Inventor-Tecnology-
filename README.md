@@ -60,6 +60,8 @@ Segue abaixo um Cronograma Macro.
 
 ### 🤖 Robô
 
+#### Entrega 2 - Minuta
+
 | Atividade                                                             | Responsavéis             | Início      | Fim        |
 |-----------------------------------------------------------------------|--------------------------|------------ |------------|
 | Pesquisa de Mercado                                                   | Kaike e João Pedro       | 21/03/2025  | 25/03/2025 |
@@ -71,8 +73,17 @@ Segue abaixo um Cronograma Macro.
 | Desenvolver placa de fixação dos componentes eletrônicos em CAD       | Kaike Anjos              | 30/03/2025  | 30/03/2025 |
 | Resumo de Atividades                                                  | Kaike e João Pedro       | 01/04/2025  | 04/04/2025 |
 
+#### Entrega 03 - Projeto Executivo 
 
-
+| Tarefas | Colaborador | Início | Fim | Dias |
+|---------|------------|--------|-----|------|
+| ✅ Desenvolver o Fluxograma do Robô | João Pedro | 10/05/2025 | 21/04/2025 | 11 |
+| ✅ Avaliar a necessidade de modificações para compatibilidade com o suporte | Kaike e João Pedro | 09/04/2025 | 21/04/2025 | 12 |
+| ✅ Imprimir em 3D os suportes do Robô  | Kaike | 06/04/2025 | 25/04/2025 | 19 |
+| ✅ Visualização dos Testes do Robô com o Suporte | Kaike | 10/05/2025 | 15/05/2025 | 05 |
+| ✅ Finalização do Projeto Executivo  | Kaike Anjos e João Pedro | 23/05/2025 | 28/05/2025 | 05 |
+| ✅ Finalização do Cronograma até entrega sprint 3 | Kaike Anjos e João Pedro  | 09/05/2025 | 29/05/2025 | 20 |
+| ✅ Resumo de Atividades  | João Pedro | 23/03/2025 | 29/04/2025 | 06 |
 
 ### 🎮 Controle
 
