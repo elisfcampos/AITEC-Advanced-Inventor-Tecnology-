@@ -34,23 +34,29 @@ Segue abaixo um Cronograma Macro.
 | ✅ Cálculo estimado de Peso da Arena Final | Elisângela/Gabriel | 22/03/2025 | 24/03/2025 |
 | ✅ Documentação e Apresentação | Elisângela/Gabriel | 22/03/2025 | 01/04/2025 |
 
-#### Entrega 3 - Projeto Executivo
+#### Entrega 3 - Projeto Executivo - Arena Montável
 
 | Tarefas | Colaborador | Início | Fim |
 |---------|------------|--------|-----|
-| ☐ Pesquisa sobre Estruturas de Mesas | Elisângela/Gabriel | 04/04/2025 | 07/04/2025 |
-| ☐ Simulações Desenho 3D, Vista Explodida, Movimentação e Croqui em Catia | Elisângela/Gabriel | 07/04/2025 | 17/05/2025 |
-| ☐ Maquete/Mockup da Arena | Elisângela/Gabriel | 05/05/2025 | 12/05/2025 |
-| ☐ Compra Chapa MDF | Elisângela/Gabriel | 17/05/2025 | 20/05/2025 |
-| ☐ Documentação | Elisângela/Gabriel | 19/05/2025 | 22/05/20255 |
+| ✅ Pesq. tipos de encaixes em madeira	| Elisângela | 08/05/2025 | 10/05/2025 | 
+| ✅ Desenhos 3D e Vista Explodida	| Elisângela | 10/05/2025 | 16/05/2025 |
+| ✅ Simulação Croquis	| Elisângela | 16/05/2025 | 28/05/2025 |
+| ✅ Material, Preço e Peso		| Elisângela | 26/05/2025 | 28/05/2025 |
+
+#### Entrega 3 - Projeto Executivo - Arena Dobrável
+| Tarefas | Colaborador | Início | Fim |
+|---------|------------|--------|-----|
+| ✅ Pesquisa Material			| Gabriel | 09/05/2025 | 15/05/2025 | 
+| ✅ Dobradiça, CAD, Simulação		| Gabriel | 16/05/2025 | 24/05/2025 |
+| ✅ Vídeo Movimentação			| Gabriel | 23/05/2025 | 29/05/2025 |
 
 #### Entrega 4 - Relatório Final
 
-| Tarefas | Colaborador | Início | Fim | Dias |
-|---------|------------|--------|-----|------|
-| ☐ Últimos Ajustes | Elisângela/Gabriel | 23/05/2025 | 27/05/2025 |
-| ☐ Documentação e Apresentação Final | Elisângela/Gabriel | 23/05/2025 | 28/05/2025 |
-
+| Tarefas | Colaborador | Início | Fim |
+|---------|------------|--------|-----|
+| ☐ Últimos Ajustes | Elisângela/Gabriel | 30/05/2025 | 10/06/2025 |
+| ☐ Entrega de Relatório Final | Elisângela/Gabriel | 10/06/2025 | 13/06/2025 |
+| ☐ Documentação e Apresentação Final | Elisângela/Gabriel | 12/06/2025 | 13/06/2025 |
 
 ### 🤖 Robô
 
