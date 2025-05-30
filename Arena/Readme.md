@@ -62,10 +62,10 @@ Segue o cronograma detalhado das etapas de entrega:
 
 | Tarefas | Colaborador | Início | Fim |
 |---------|------------|--------|-----|
-| ⏹ Últimos Ajustes | Elisângela/Gabriel | 30/05/2025 | 15/05/2025 |
-| ⏹ Entrega de Relatório Final | Elisângela/Gabriel | 13/06/2025 | 15/06/2025 |
-| ⏹ Revisão de Relatório Final no Git | Elisângela/Heloisa | 14/06/2025 | 15/06/2025 |
-| ⏹ Apresentação em PPT Arena | Elisângela/Gabriel | 15/06/2025 | 16/06/2025 |
+| ⏹ Últimos Ajustes | Elisângela/Gabriel | 30/05/2025 | 10/06/2025 |
+| ⏹ Entrega de Relatório Final | Elisângela/Gabriel | 10/06/2025 | 13/06/2025 |
+| ⏹ Revisão de Relatório Final no Git | Elisângela/Heloisa | 10/06/2025 | 13/06/2025 |
+| ⏹ Apresentação em PPT Arena | Elisângela/Gabriel | 12/06/2025 | 13/06/2025 |
 
 
 # Projeto - Executivo - Arena Montável
