@@ -171,14 +171,15 @@ O projeto é desenvolvido pelos seguintes integrantes:
 
 | Nome | Foto | Setor | Área |
 |------|------|-------|------|
-| **Elisângela Ferraz De Campos** | ![Elisângela Ferraz De Campos](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Elisangela.png) | **Arena** |**Mecânica/Programação** |
-| **Eric Godoi** | ![Eric Godoi](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Eric.png) | **Placar** |**Programação/Eletrônica** |
-| **Gabriel Alves** | ![Gabriel Alves](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2d18b57494a65900ba45bd1563b2d952f7cb3b36/Docs/Imagens/Gabriel.png) | **Arena** |**Mecânica/Eletrônica** |
-| **Heloisa Rodrigues** | ![Heloisa Rodrigues](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Heloisa.png) | **Controle** |**Mecânica/Eletrônica** |
-| **João Pedro Da Silva Rosa** | ![João Pedro Da Silva Rosa](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jo%C3%A3oPedroRosa.png) | **Robôs** |**Programação/Eletrônica** |
-| **João Vitor Morais Souza** | ![João Vitor Morais Souza](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jo%C3%A3oVitor.png) | **Placar** |**Mecânica/Programação** |
-| **José Eduardo Teixeira Dos Reis** | ![José Eduardo Teixeira Dos Reis](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jos%C3%A9Eduardo.png) | **Controle** |**Programação/Eletrônica** | 
-| **Kaike Elias Ferreira Dos Anjos** | ![Kaike Elias Ferreira Dos Anjos](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Kaike.png) | **Robôs** |**Mecânica/Eletrônica** |
+| **Elisângela Ferraz De Campos**,  [🔗 LinkedIn](www.linkedin.com/in/elisângela-campos-5a82672a9) | ![Elisângela Ferraz De Campos](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Elisangela.png) | **Arena** |**Mecânica/Programação** |
+|**Eric Godoi**,  [🔗 LinkedIn](https://www.linkedin.com/in/eric-domingues-godoi-299011310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | ![Eric Godoi](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Eric.png) | **Placar** |**Programação/Eletrônica** |
+| **Gabriel Alves**,  [🔗 LinkedIn](https://www.linkedin.com) | ![Gabriel Alves](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2d18b57494a65900ba45bd1563b2d952f7cb3b36/Docs/Imagens/Gabriel.png) | **Arena** |**Mecânica/Eletrônica** |
+| **Heloisa Rodrigues**,  [🔗 LinkedIn](https://www.linkedin.com) | ![Heloisa Rodrigues](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Heloisa.png) | **Controle** |**Mecânica/Eletrônica** |
+| **João Pedro Da Silva Rosa**,  [🔗 LinkedIn](https://www.linkedin.com) | ![João Pedro Da Silva Rosa](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jo%C3%A3oPedroRosa.png) | **Robôs** |**Programação/Eletrônica** |
+| **João Vitor Morais Souza**,  [🔗 LinkedIn](https://www.linkedin.com) | ![João Vitor Morais Souza](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jo%C3%A3oVitor.png) | **Placar** |**Mecânica/Programação** |
+| **José Eduardo Teixeira Dos Reis**,  [🔗 LinkedIn](https://www.linkedin.com/in/josé-eduardo-reis-8462a7206) | ![José Eduardo Teixeira Dos Reis](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jos%C3%A9Eduardo.png) | **Controle** |**Programação/Eletrônica** |
+| **Kaike Elias Ferreira Dos Anjos**,  [🔗 LinkedIn](https://www.linkedin.com) | ![Kaike Elias Ferreira Dos Anjos](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Kaike.png) | **Robôs** |**Mecânica/Eletrônica** |
+
 
 
 
