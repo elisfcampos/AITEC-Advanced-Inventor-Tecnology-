@@ -178,7 +178,7 @@ O projeto é desenvolvido pelos seguintes integrantes:
 | **João Pedro Da Silva Rosa**,  [🔗 LinkedIn](https://www.linkedin.com) | ![João Pedro Da Silva Rosa](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jo%C3%A3oPedroRosa.png) | **Robôs** |**Programação/Eletrônica** |
 | **João Vitor Morais Souza**,  [🔗 LinkedIn](https://www.linkedin.com) | ![João Vitor Morais Souza](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jo%C3%A3oVitor.png) | **Placar** |**Mecânica/Programação** |
 | **José Eduardo Teixeira Dos Reis**, [🔗 LinkedIn](https://www.linkedin.com/in/josé-eduardo-reis-8462a7206) | ![José Eduardo Teixeira Dos Reis](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Jos%C3%A9Eduardo.png) | **Controle** |**Programação/Eletrônica** |
-| **Kaike Elias Ferreira Dos Anjos**,  [🔗 LinkedIn](https://www.linkedin.com) | ![Kaike Elias Ferreira Dos Anjos](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Kaike.png) | **Robôs** |**Mecânica/Eletrônica** |
+| **Kaike Elias Ferreira Dos Anjos**,  [🔗 LinkedIn](https://www.linkedin.com/in/kaike-anjos-b8824923b) | ![Kaike Elias Ferreira Dos Anjos](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d57a1085439af514ea07e30ea6f12cd5123c22d6/Docs/Imagens/Kaike.png) | **Robôs** |**Mecânica/Eletrônica** |
 
 
 
