@@ -173,6 +173,6 @@ Fonte: autoria própria (2025).
 *Entrega 3 - Projeto Executivo - Arena Montável*
 Hiperlinks
 - [Video Ilustrativo - Rabo Andorinha](https://m.youtube.com/watch?v=AAguOOEWLuc&pp=ygUSI2ppZ2ZlaXRvcGFyYXZvY8Oq)
-- [Video Ilustrativo - Woodworking Joints](https://m.youtube.com/watch?v=AAguOOEWLuc&pp=ygUSI2ppZ2ZlaXRvcGFyYXZvY8Oq)
+- [Video Ilustrativo - Woodworking Joints](https://www.youtube.com/watch?v=z4emg283YC8)
 - [Blog Carpinteria](https://estruturasdemadeira.blogspot.com/2016/04/encaixes-japoneses-parte-2-emendas.html)
 
