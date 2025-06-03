@@ -98,9 +98,19 @@ Este subtópico apresenta o desenvolvimento da parte eletrônica do projeto, ond
 
 ![image](https://github.com/user-attachments/assets/f0150813-5ac3-4994-96dd-d8b0816285d2)
 
+![image](https://github.com/user-attachments/assets/5f6a24d5-8206-4d49-a8f4-5aa68c42c3b9)
+
+
 ### Programação (teste)
 
 Este subtópico apresenta a programação desenvolvida para realização de testes de funcionamento do sensor MPU-6050, focado captação de gestos e transmissão de dados coletados, para que possam ser enviados ao robô e movimenta-lo. O código à seguir apresenta a programação inicial, onde cada gesto (frente, trás, direita e esquerda) irá acender um led, significando que o sensor está coletando os dados e a programação está de acordo com o proposto.
+
+Segue abaixo a versão de teste do código:
+
+![image](https://github.com/user-attachments/assets/8748f67d-708c-4fd8-b938-b2d066d07059)
+
+![image](https://github.com/user-attachments/assets/26e110b2-233a-4c08-91e7-0cc395be215a)
+
 
 
 
