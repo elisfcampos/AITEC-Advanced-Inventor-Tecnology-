@@ -76,24 +76,35 @@ Iniciei as pesquisas sobre as técnicas japonesas para encaixe de móveis e viga
 Deparei-me com o trabalho de Akemi Hijioka, MINKA - Casa dos Imigrantes Japoneses no Vale do Ribeira, localizei em outros sites possibilidades disponíveis usando dessas técnicas de encaixe. Escolhi a técnica conhecida como rabo de andorinha, as demais são artesanais usando formão e martelo de borracha/madeira. Enquanto que a técnica escolhida pode ser fabricada em marcenaria usando uma tupia ou cnc router com a ferramenta de fresa.
 
 Desenvolvi primeiramente um modelo em isopor, para testar os encaixes e facilitar o entendimento da geometria.\
-[**📸 modelo em isopor**](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/0f20302de8e903f8805c0d20af19104c8d5da37e/Arena/ModeloIsoporEncaixe.gif)
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ModeloIsoporEncaixe.gif" alt="📸 modelo em isopor" width="400" />  
+**📸 modelo em isopor**
 
-Em seguida, iniciei a criação dos desenhos no Catia, bem como o desenho 3D e a Vista Explodida.\
-[**📝 Vista Explodida**](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/6271549ee020ceb1bed807c2b4162d19a3861a5a/Arena/ArenaMontavelVistaExplodida.pdf)
+Em seguida, iniciei a criação dos desenhos no Catia, bem como o desenho 3D e a Vista Explodida.  \
+<br>
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavelVistaExplodida.jpg" alt="📝 Vista Explodida" width="500" />  
+**📝 Vista Explodida - [ArenaMontavelVistaExplodida.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavelVistaExplodida.pdf)**  
 
-A partir do 3D desenvolvi a simulação mostrando a ordem para encaixar as partes, bem como as peças devem deslizar, e acrescentando o tampo por onde os robôs irão duelar.  
-![Simulação da Arena](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/6271549ee020ceb1bed807c2b4162d19a3861a5a/Arena/ArenaMontavelSimulacao.gif)
+A partir do 3D desenvolvi a simulação mostrando a ordem para encaixar as partes, bem como as peças devem deslizar, e acrescentando o tampo por onde os robôs irão duelar.
+<br>
 
-A próxima etapa foi desenvolver os croquis das 4 partes da Arena 
-- [📝 Croqui 01](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5fe5262aa7a9066c96db94ccc858ae26668961f2/Arena/ArenaMontavelTampo.pdf)
-- [📝 Croqui 02](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5fe5262aa7a9066c96db94ccc858ae26668961f2/Arena/ArenaMontavel03A01.pdf)
-- [📝 Croqui 03](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5fe5262aa7a9066c96db94ccc858ae26668961f2/Arena/ArenaMontavel03B01.pdf)
-- [📝 Croqui 04](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5fe5262aa7a9066c96db94ccc858ae26668961f2/Arena/ArenaMontavel04A01.pdf)
-- [📝 Croqui 05](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5fe5262aa7a9066c96db94ccc858ae26668961f2/Arena/ArenaMontavel04B01.pdf)
+![Simulação da Arena](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/6271549ee020ceb1bed807c2b4162d19a3861a5a/Arena/ArenaMontavelSimulacao.gif)  
+**📝 Digital Mock-up (DMU) - [Assembly_Arena11.CATProduct](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/Assembly_Arena11.CATProduct)**  
+
+A próxima etapa foi desenvolver os croquis das 4 partes da Arena  
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavelTampo.jpg" alt="📝 Croqui 01" width="400" />  <img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavel03A01.jpg" alt="📝 Croqui 02" width="400" />  
+**📝 Croqui 01 - [ArenaMontavelTampo.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavelTampo.pdf)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**📝 Croqui 02 - [ArenaMontavel03A01.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavel03A01.pdf)**
+
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavel03B01.jpg" alt="📝 Croqui 03" width="400" />  <img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavel04A01.jpg" alt="📝 Croqui 04" width="400" />  
+**📝 Croqui 03 - [ArenaMontavel03B01.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavel03B01.pdf)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**📝 Croqui 04 - [Arena/ArenaMontavel04A01.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavel04A01.pdf)**
+
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavel04B01.jpg" alt="📝 Croqui 05" width="400">
+
+**📝 Croqui 05 - [ArenaMontavel04B01.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ArenaMontavel04B01.pdf)**
 
 
-Pesquisa de preço e peso estimado do projeto
-Para este projeto o tipo de material mais adequado é a madeira maciça, considerando a madeira Pinus, porém é bem mais cara que o MDF, *quanto ao peso é praticamente o mesmo*, 700kg/cm3.
+
+**Pesquisa de preço e peso estimado do projeto**  \
+Para este projeto o tipo de material mais adequado é a madeira maciça, considerando a madeira Pinus, porém o custo é maior que o MDF, *quanto ao peso é praticamente o mesmo*, 700kg/cm3.
 
 *Madeira Maciça* 
 
@@ -104,7 +115,11 @@ Laterais Menores - Dimensões: 770mm x 50mm x 34 mm, 8 pedaços nestas dimensõe
 Tampo - Serão necessárias 4 chapas de MDF para compor a Arena Montável, cada chapa com as dimensões de: 700 mm x 950 mm x 3mm espessura. 
 
 Cálculo Estimado do Peso Total da Arena
-[📋 Tabela de Peso](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/83c7fce48e9206d4ba16e5404740103cb46dcbdb/Arena/TabelaPesoArena.gif)
+
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/TabelaPesoArena.gif" alt="📋 Tabela de Peso" width="400" /> 
+
+**📋 Tabela de Peso Estimado**
+
 
 
 Cotado pelo site:\
