@@ -40,13 +40,13 @@
 |---------|------------|--------|-----|------|
 | Primeira montagem do projeto | João Vitor/Eric | 100% | 11/05/25 | 16/05/25 |
 | Teste da programação no placar | João Vitor | 100% | 16/05/25 | 29/05/25 |
-| Organização do GitHub | Eric/João Vitor | 75% | 11/05/25 | 26/05/25 |
+| Organização do GitHub | Eric/João Vitor | 100% | 11/05/25 | 26/05/25 |
 
 ### Sprint 04 - 13/06/25
 | Tarefas | Colaborador | Progresso | Início | Fim |
 |---------|------------|--------|-----|------|
-| Montagem de documentos finais | Eric | 65% | 02/06/25 | xx/xx/xx |
-| Organização final do GitHub | Eric/João Vitor | 50% | 02/06/25 | xx/xx/xx |
+| Montagem de documentos finais | Eric | 70% | 02/06/25 | xx/xx/xx |
+| Organização final do GitHub | Eric/João Vitor | 80% | 02/06/25 | 13/06/25 |
 
 ### FEIRA DE SOLUÇÕES!🎉 - 17/06/25
 | Tarefas | Colaborador | Progresso | Início | Fim |
