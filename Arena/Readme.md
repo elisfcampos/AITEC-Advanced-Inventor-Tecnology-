@@ -19,7 +19,22 @@ Veja o nosso em **🏟️ <ins>Arena</ins> - Desenvolvimento da Arena** a partir
 
 Escolhemos o desenvolvimento desta arena pela necessidade de adquirir conhecimentos sobre a **parte mecânica e estrutural** de um projeto voltado à manufatura.
 A **arena** será desenvolvida no formato de uma **mesa portátil e dobrável**, projetada para suportar os robôs durante os duelos. Além disso, contará com uma **proteção lateral** para evitar a queda dos robôs.
-Neste semestre, a entrega será focada na fase de **simulação**, a entrega física da arena será no 6º Semestre.\
+Neste semestre, a entrega será focada na fase de **simulação**, a entrega física da arena será no 6º Semestre.  
+
+Iniciamos nossas pesquisas ...
+
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/beb547fe70383a618a5cf534563a0dfd85f43545/Arena/MapaMentalDigitalElisangela_Gabriel.jpg" alt="Mapa Mental" width="800" /> 
+
+e chegamos a um primeiro croqui.
+
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/beb547fe70383a618a5cf534563a0dfd85f43545/Arena/CroquiArena%20de%202025-03-09%20%C3%A0(s)%2009.35.46_f627181a.jpg" alt="Croqui" width="800" /> 
+
+Partimos para pesquisas de tipos de materiais, peso e preços.
+
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/da3dca085cf133827ae73bb762833e60399f857b/Arena/Entr02_Pesq_Mat_Peso_Preco_Elisangela_Gabriel_26-03-25.jpg" alt="📝 Pesquisa01" width="600">
+
+**📝 Pesquisa - [Entr02_Pesq_Mat_Peso_Preco_Elisangela_Gabriel_26-03-25.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/beb547fe70383a618a5cf534563a0dfd85f43545/Arena/Entr02_Pesq_Mat_Peso_Preco_Elisangela_Gabriel_26-03-25.pdf)** 
+
 Segue o cronograma detalhado das etapas de entrega:
 
 ### Cronograma Arena - Entrega até a Feira de Soluções
@@ -62,20 +77,40 @@ Segue o cronograma detalhado das etapas de entrega:
 
 | Tarefas | Colaborador | Início | Fim |
 |---------|------------|--------|-----|
-| ⏹ Últimos Ajustes | Elisângela/Gabriel | 30/05/2025 | 10/06/2025 |
-| ⏹ Entrega de Relatório Final | Elisângela/Gabriel | 10/06/2025 | 13/06/2025 |
-| ⏹ Revisão de Relatório Final no Git | Elisângela/Heloisa | 10/06/2025 | 13/06/2025 |
-| ⏹ Apresentação em PPT Arena | Elisângela/Gabriel | 12/06/2025 | 13/06/2025 |
+| ✅ Últimos Ajustes | Elisângela/Gabriel | 30/05/2025 | 10/06/2025 |
+| ✅ Entrega de Relatório Final | Elisângela/Gabriel | 10/06/2025 | 13/06/2025 |
+| ✅ Revisão de Relatório Final no Git | Elisângela/Heloisa | 10/06/2025 | 13/06/2025 |
+| ✅ Apresentação em PPT Arena | Elisângela/Gabriel | 12/06/2025 | 13/06/2025 |
 
+
+Para acelerarmos nosso processo de desenvolvimento, bem como apresentar melhores sugestões, seguimos diferentes caminhos de desenvolvimento, sendo uma Arena Montável desenvolvida por Elisângela e outra Arena Dobrável desenvolvida por Gabriel, como se segue a descrição dos processos.
 
 # Projeto - Executivo - Arena Montável
 
+*Arena montável em 4 partes - Elisângela* 
+Iniciei as pesquisas sobre tipos de arena repassando em tipos diferentes formas geométricas diferentes.
 
-*Arena montável em 4 partes - Elisângela*\
-Iniciei as pesquisas sobre as técnicas japonesas para encaixe de móveis e vigas de madeiras, informações das quais serviram de inspiração para o desenvolvimento do projeto.
-Deparei-me com o trabalho de Akemi Hijioka, MINKA - Casa dos Imigrantes Japoneses no Vale do Ribeira, localizei em outros sites possibilidades disponíveis usando dessas técnicas de encaixe. Escolhi a técnica conhecida como rabo de andorinha, as demais são artesanais usando formão e martelo de borracha/madeira. Enquanto que a técnica escolhida pode ser fabricada em marcenaria usando uma tupia ou cnc router com a ferramenta de fresa.
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/1da728ade8a0ed2d799ce1871028cec03b60d300/Arena/PesquisasSprint03.jpg" alt="📝 Pesquisa03" width="400">
 
-Desenvolvi primeiramente um modelo em isopor, para testar os encaixes e facilitar o entendimento da geometria.\
+**📝 Pesquisa Sprint03 - [PesquisasSprint03.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/PesquisasSprint03.pdf)** \
+**📝 Pesquisa Sprint04 - [PesquisasSprint04.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/PesquisasSprint04.pdf)** \
+**📝 Pesquisa PVC - [CotaçãoArenaPVC_E_Case02.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/0bf8c67d3c38fad3088b9d4ace955203c106a189/Arena/Cota%C3%A7%C3%A3oArenaPVC_E_Case02.pdf)** 
+
+
+Simulação de tipos diferentes de arenas. 
+
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/0bf8c67d3c38fad3088b9d4ace955203c106a189/Arena/ArenasTipos02.png" alt="📝 Pesquisa03" width="900"> 
+
+
+Pesquisei sobre as técnicas japonesas para encaixe de móveis e vigas de madeiras, informações das quais serviram de inspiração para o desenvolvimento do projeto.
+Deparei-me com o trabalho de Akemi Hijioka, MINKA - Casa dos Imigrantes Japoneses no Vale do Ribeira, localizei em outros sites possibilidades disponíveis usando dessas técnicas de encaixe. Escolhi a técnica conhecida como rabo de andorinha, as demais são artesanais usando formão e martelo de borracha/madeira. Enquanto que a técnica escolhida pode ser fabricada em marcenaria usando uma tupia ou cnc router com a ferramenta de fresa. 
+
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/012598030548f933b031d4ada0934b22d4aa9673/Arena/TecnicaJaponesaEncaixes_Preco_Material.jpg" alt="📝 Téc. Japonesa de Encaixes" width="500" />  
+
+**📝 Téc. Japonesa de Encaixes** - [TecnicaJaponesaEncaixes_Preco_Material.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/012598030548f933b031d4ada0934b22d4aa9673/Arena/TecnicaJaponesaEncaixes_Preco_Material.pdf)    
+
+Desenvolvi primeiramente um modelo em isopor, para testar os encaixes e facilitar o entendimento da geometria. \
+
 <img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ModeloIsoporEncaixe.gif" alt="📸 modelo em isopor" width="400" />  
 **📸 modelo em isopor**
 
@@ -104,19 +139,37 @@ A próxima etapa foi desenvolver os croquis das 4 partes da Arena
 
 
 **Pesquisa de preço e peso estimado do projeto**  \
-Para este projeto o tipo de material mais adequado é a madeira maciça, considerando a madeira Pinus, porém o custo é maior que o MDF, *quanto ao peso é praticamente o mesmo*, 700kg/cm3.
+Para este projeto o tipo de material mais adequado é a madeira maciça, considerando a madeira Pinus, porém o custo é maior que o MDF, *quanto ao peso é **praticamente** o mesmo*, usando com referência 700kg/cm3.
 
 *Madeira Maciça* 
 
-Laterais Maiores - Dimensões: 1000mm x 50mm x 34mm, 8 pedaços nestas dimensões.
+Laterais Maiores - Dimensões: 1020mm x 50mm x 30mm, 8 pedaços nestas dimensões.
 
-Laterais Menores - Dimensões: 770mm x 50mm x 34 mm, 8 pedaços nestas dimensões.
+Laterais Menores - Dimensões: 770mm x 50mm x 30mm, 8 pedaços nestas dimensões.
 
 Tampo - Serão necessárias 4 chapas de MDF para compor a Arena Montável, cada chapa com as dimensões de: 700 mm x 950 mm x 3mm espessura. 
 
-Cálculo Estimado do Peso Total da Arena
+Cálculo Estimado do Peso Total da Arena 
+ 
+Para o cálculo para 1 Lateral Maior: 1020mm x 50mm x 30mm, converter para metros -> 1,02m * 0,05m * 0,03m = 0,00153 metros cúbicos. 
+Agora para encontrar quanto pesa, multiplica-se por 700kg/m3 -> 0,00153 metros cúbicos x 700kg/m3 = 1,071 kg/m3. 
+Assim sendo, multiplica-se o resultado por 8 (precisaremos de 8 pedaços iguais para a montagem total, perfazendo o equivalente a 4 molduras), 
+1,071 kg/m3 x 8, então chegamos ao resultado parcial de Laterais Maiores = *8,568 Kg* 
 
-<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/TabelaPesoArena.gif" alt="📋 Tabela de Peso" width="400" /> 
+Para o cálculo para 1 Lateral Menor: 770mm x 50mm x 30mm, converter para metros -> 0,77m * 0,05m * 0,03m = 0,001155 metros cúbicos. 
+Agora para encontrar quanto pesa, multiplica-se por 700kg/m3 -> 0,001155 metros cúbicos x 700kg/m3 = 0,8085 kg/m3. 
+Assim sendo, multiplica-se o resultado por 8 (precisaremos de 8 pedaços iguais para a montagem total, perfazendo o equivalente a 4 molduras), 
+0,8085 kg/m3 x 8, então chegamos ao resultado parcial de Laterais Maiores = *6,468 Kg* 
+
+Para o cálculo para 1 Tampo: 700 mm x 950 mm x 3mm, converter para metros -> 0,7m * 0,003m *0,95m = 0,001995 metros cúbicos. 
+Agora para encontrar quanto pesa, multiplica-se por 700kg/m3 -> 0,001995 metros cúbicos x 700kg/m3 = 1,3965 kg/m3. 
+Assim sendo, multiplica-se o resultado por 8 (precisaremos de 8 pedaços iguais para a montagem total, perfazendo o equivalente a 4 molduras), 
+1,3965 kg/m3 x 4, então chegamos ao resultado parcial de Laterais Maiores = *5,586 Kg* 
+
+Somando todas os subtotais, chegamos a um total geral, *8,568 Kg/m3* + *6,468 Kg/m3* + *5,586 Kg/m3* = 20,622 Kg/m3
+
+
+<img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/TabelaPesoArena.gif" alt="📋 Tabela de Peso" width="600" /> 
 
 **📋 Tabela de Peso Estimado**
 
@@ -134,8 +187,11 @@ Disponíveis da chapa: 3000 mm comprimento x 300 mm largura x 34 mm espessura. S
 *MDF*  
 
 Consideradas as dimensões:\
-Laterais Maiores - Dimensões: 1020 mm x 50 mm de altura e 30 mm espessura, 8 pedaços nestas dimensões.\
-Laterais Menores - Dimensões: 770mm x 50mm x 34 mm, 8 pedaços nestas dimensões, 8 pedaços nestas dimensões.\
+
+Laterais Maiores - Dimensões: 1020 mm x 50 mm de altura e 30 mm espessura, 8 pedaços nestas dimensões.\ 
+
+Laterais Menores - Dimensões: 770mm x 50mm x 34 mm, 8 pedaços nestas dimensões, 8 pedaços nestas dimensões.\ 
+
 Tampo - Serão necessárias 4 chapas de MDF para compor a Arena Montável, cada chapa com as dimensões de: 700 mm x 950 mm x 3mm espessura.  
 
 Para as laterais da Arena usando uma chapa de MDF nas dimensões de 2750mm x 1850mm x 30mm, e cortarmos no sentido do tamanho de 1850mm:
