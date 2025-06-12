@@ -110,27 +110,30 @@ Para os motores utilizaremos 2 motores DC 3-6V com caixa de redução de aço, 6
 
 ## **Introdução**
 
-O robô estoura balão é um dispositivo projetado para competir em arenas, onde o objetivo principal é estourar o balão do adversário para somar pontos e vencer a partida. A competição exige uma combinação de habilidades em engenharia mecânica, eletrônica, programação e estratégia. Um dos aspectos técnicos mais críticos envolve o design do chassi, que deve proporcionar ótima movimentação e velocidade, além do desenvolvimento de um sistema de controle eficiente para a navegação. Nesse contexto, a escolha adequada dos componentes e do design é fundamental para garantir a agilidade e a eficiência do robô.
+O robô estoura balão é um sistema robótico projetado para disputas competitivas em arenas, com o objetivo de atingir e estourar o balão do oponente. Para isso, combina-se uma base móvel controlada remotamente, sistema de ataque frontal, proteção traseira para o balão, estrutura resistente e controle de movimentos rápidos.
+Este projeto une as áreas de engenharia mecânica, eletrônica e computação embarcada, utilizando tecnologias acessíveis como impressão 3D, plataformas Arduino/ESP32 e controle via Bluetooth. O desenvolvimento envolveu desde a concepção conceitual até a montagem final e validação por testes funcionais.
+
+## **Projeto Executivo**
+
+Este documento apresenta todas as etapas realizadas no desenvolvimento do robô, com vistas a permitir que qualquer pessoa com acesso a este material possa replicar o projeto com fidelidade.
 
 ### **Ideação e Planejamento Inicial**
 
-Realizou-se uma sessão de brainstorm para definir as áreas do projeto: robô, controles, arena, regras e placar. O desafio era construir uma arena e um robô estoura-bexiga. Inspirando-se em vídeos de referência, foi criado um croqui do robô e um mapa mental com as diretrizes para o desenvolvimento. Kaike Anjos liderou a parte mecânica, João Pedro ficou com a programação, e ambos compartilharam a parte eletrônica.
-Durante essa fase, também foi decidido que o robô precisaria ser resistente, ágil e adaptável, com sistemas de ataque eficientes e proteção para a bexiga. O grupo utilizou a técnica de análise funcional para definir as principais funções que o robô deveria executar.
+Antes de iniciar a construção do robô, foi elaborado um mapa mental com o objetivo de organizar as ideias e dividir o projeto em áreas principais:
+
+- Robô (estrutura e componentes);
+- Controles (aplicativo e comandos);
+- Arena (dimensões e regras);
+- Regras da competição;
+- Sistema de pontuação e placar;
+
+Essa ferramenta ajudou a manter o foco no que era necessário desenvolver e facilitou a divisão de tarefas.
 
 ![Mapa Mental Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5b15182cb1cc6b82b046ccdb4ed3a210d2fbfd19/Robos/Mapa%20Mental%20Robo.png)
 
+### **Prototipagem Inicial**
 
-### **Prototipagem e Primeiros Testes**
-
-Usou-se como base o modelo do semestre anterior desenvolvido por Heloísa e Eric e o grupo AITEC. Testes foram feitos com acessórios como espeto e balão. Estimou-se o custo do projeto em R$ 342,53.
-Ferramentas:
-
-- Software CATIA para modelagem das proteções e eixos.
-
-- Espessura das peças entre 4 mm e 5 mm.
-
-A modelagem 3D e a divisão das peças ajudaram na montagem precisa e eficiente do robô. Além disso, foram testados diferentes mecanismos de fixação e movimentação dos componentes, visando aumentar a estabilidade e robustez do robô.
-A equipe realizou simulações de ataques, verificando o alcance e a eficácia do espeto ao estourar a bexiga adversária. Essas simulações foram importantes para refinar o posicionamento dos componentes e definir melhorias no projeto.
+O chassi foi modelado utilizando o software CATIA. As peças estruturais foram projetadas com espessura entre 4 mm e 5 mm. A modelagem tridimensional permitiu simulações de montagem e posicionamento dos componentes. Testes práticos com o sistema de ataque foram realizados para verificar alcance e eficácia. O projeto passou por ajustes iterativos conforme falhas eram identificadas nos testes.
 
 ### **Componentes e Materiais**
 
@@ -139,51 +142,33 @@ A equipe realizou simulações de ataques, verificando o alcance e a eficácia d
 
 ### **Ajustes Técnicos e Programação**
 
-Após a montagem do primeiro robô com ESP32 e Bluetooth, foram feitos vários testes até o pleno funcionamento. O segundo robô usou uma placa Arduino, exigindo adaptação dos códigos. A mudança na plataforma de controle implicou ajustes na lógica de programação, especialmente na comunicação serial e no controle de motores.
-Também foi criado um fluxograma que detalha os movimentos do robô, organizando sua lógica de ataque, defesa e movimentação. Esse fluxograma foi baseado em testes empíricos e refinado com base nos vídeos gravados.<p>
-**Impressão 3D:** usada para a maioria dos suportes no primeiro robô. No segundo, parte das peças foi feita manualmente, adaptando materiais disponíveis e garantindo funcionalidade equivalente. <p>
-**Documentação em vídeo:** foi feito um vídeo mostrando a movimentação, ajustes e testes de resistência. Esses vídeos ajudaram na análise dos pontos de falha, permitindo que o grupo implementasse reforços estruturais e ajustes nos comandos de movimentação.
+As peças impressas em 3D incluem proteções para bateria, eletrônicos e para-choques. Foram utilizadas as seguintes especificações:
 
-### **Desenhos Técnicos**
+- Material: PLA;
 
-![Haste Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Haste.png)
+- Resolução: 0,28 mm;
 
-![Escudo Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Escudo.png)
+- Densidade: 15%.
 
-![Proteção dos Componentes Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Prote%C3%A7%C3%A3o%20dos%20Componentes.png)
-
-![Placa de Fixação Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Placa%20de%20Fixa%C3%A7%C3%A3o.png)
-
-### **Fluxograma**
-
-![Fluxograma Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/842050f77f30a7a80b6c87325a11d6fcff1ecdb4/Robos/Fluxograma%20do%20rob%C3%B4.png)
-
-
-### **Códigos e Algoritmos**
-
-Foram desenvolvidas versões diferentes do código para ESP32 e Arduino, ajustando a comunicação via Bluetooth e os comandos dos motores. O código incluía:
-
-- Mapeamento de comandos via Bluetooth;
-- Controle PWM para ajuste de velocidade dos motores;
-- Lógica de movimentação baseada em comandos direcionais (frente, ré, giro esquerdo/direito);
-- Comandos de ativação do sistema de ataque.
-
-![Codigo01 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5b15182cb1cc6b82b046ccdb4ed3a210d2fbfd19/Robos/Imagens/Sprint%2002/codigo%2001.png)
-
-![Codigo02 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5b15182cb1cc6b82b046ccdb4ed3a210d2fbfd19/Robos/Imagens/Sprint%2002/codigo%2002.png)
-
-![Codigo03 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5b15182cb1cc6b82b046ccdb4ed3a210d2fbfd19/Robos/Imagens/Sprint%2002/codigo%2003.png)
+Recomenda-se limpeza e conferência dos furos após a impressão. A impressão 3D permitiu personalização de componentes estruturais e protetivos, adaptando o projeto às necessidades específicas da equipe.
 
 
 ### **Montagem**
 
-O robô foi montado seguindo os desenhos técnicos e o roteiro de montagem. Foram testadas:
+#### **Montagem Mecânica**
 
-- Fixação dos suportes;
-- Estabilidade dos acessórios (espeto e balão);
-- Funcionalidade da movimentação;
-- Robustez da estrutura;
-- Tempo de resposta aos comandos via Bluetooth.
+As peças 3D devem ser fixadas apenas após a montagem e verificação do sistema eletrônico, garantindo acesso facilitado em caso de ajustes.
+
+#### **Montagem Eletrônica**
+
+- Testar os componentes individualmente;
+- Fixar a placa de apoio no chassi;
+- Conectar os fios de acordo com o esquema elétrico (recomenda-se uso de Fritzing);
+- Soldar conexões, se necessário;
+- Transferir o código para a placa controladora;
+-Testar funcionamento completo antes da fixação definitiva.
+
+É fundamental garantir que todos os fios estejam corretamente isolados para evitar curtos-circuitos, e que a bateria esteja firmemente fixada para evitar deslocamentos durante a operação.
 
 ![Montagem01 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Imagens/Sprint%2002/montagem%2001.jpg)
 
@@ -203,7 +188,54 @@ O robô foi montado seguindo os desenhos técnicos e o roteiro de montagem. Fora
 
 ![Montagem09 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Imagens/Sprint%2002/Imagem5.png)
 
+
+### **Desenhos Técnicos**
+
+![Haste Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Haste.png)
+
+![Escudo Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Escudo.png)
+
+![Proteção dos Componentes Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Prote%C3%A7%C3%A3o%20dos%20Componentes.png)
+
+![Placa de Fixação Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Placa%20de%20Fixa%C3%A7%C3%A3o.png)
+
+### **Códigos e Algoritmos**
+
+Foram desenvolvidas versões diferentes do código para ESP32 e Arduino, com controle via Bluetooth. O robô responde a comandos recebidos de um aplicativo no celular. O código pode ser modificado conforme as necessidades do usuário, facilitando sua adaptação para diferentes estratégias de movimentação ou controle. O código incluía:
+
+- Mapeamento de comandos via Bluetooth;
+- Controle PWM para ajuste de velocidade dos motores;
+- Lógica de movimentação baseada em comandos direcionais (frente, ré, giro esquerdo/direito);
+- Comandos de ativação do sistema de ataque.
+
+![Codigo01 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5b15182cb1cc6b82b046ccdb4ed3a210d2fbfd19/Robos/Imagens/Sprint%2002/codigo%2001.png)
+
+![Codigo02 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5b15182cb1cc6b82b046ccdb4ed3a210d2fbfd19/Robos/Imagens/Sprint%2002/codigo%2002.png)
+
+![Codigo03 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5b15182cb1cc6b82b046ccdb4ed3a210d2fbfd19/Robos/Imagens/Sprint%2002/codigo%2003.png)
+
+### **Fluxograma**
+
+O fluxograma do funcionamento segue:
+
+- Inicialização da conexão Bluetooth;
+- Leitura de comandos;
+- Ação correspondente nos motores;
+- Espera por novo comando.
+
+![Fluxograma Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/842050f77f30a7a80b6c87325a11d6fcff1ecdb4/Robos/Fluxograma%20do%20rob%C3%B4.png)
+
 ### **Testes**
+
+Os testes avaliaram:
+
+- Estabilidade estrutural;
+- Alcance e eficácia do ataque;
+- Agilidade na movimentação;
+- Precisão da resposta via controle Bluetooth;
+- Robustez frente a impactos.
+
+Foram realizados vídeos para documentação e análise de falhas. Os resultados dos testes auxiliaram na melhoria contínua do robô, com modificações estruturais e ajustes de código sempre que necessário.
 
 ![Teste01 Video](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Videos%20da%20Movimenta%C3%A7%C3%A3o%20do%20Rob%C3%B4/WhatsApp%20Video%202025-05-14%20at%2017.55.33%20(1).mp4)
 
@@ -212,6 +244,22 @@ O robô foi montado seguindo os desenhos técnicos e o roteiro de montagem. Fora
 ![Teste03 Video](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Videos%20da%20Movimenta%C3%A7%C3%A3o%20do%20Rob%C3%B4/WhatsApp%20Video%202025-05-14%20at%2017.55.34.mp4)
 
 ![Teste04 Video](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Videos%20da%20Movimenta%C3%A7%C3%A3o%20do%20Rob%C3%B4/WhatsApp%20Video%202025-05-15%20at%2022.39.59.mp4)
+
+### **Manual de Operação**
+
+- Ligar o robô e ativar o Bluetooth;
+- Abrir o aplicativo "SmartCar" ou versão personalizada via MIT App Inventor;
+- Emparelhar com o robô;
+
+Utilizar os botões direcionais:
+
+- ↑ Frente
+- ↓ Trás
+- ← Esquerda
+- → Direita
+
+O controle foi projetado para ser intuitivo e compatível com dispositivos Android. A alternativa desenvolvida no MIT App Inventor pode incluir melhorias visuais e lógicas.
+
 
 ## Cronograma 03 - Entrega 30/05/2025 
 
