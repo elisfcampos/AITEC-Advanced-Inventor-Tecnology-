@@ -217,7 +217,7 @@ As peças 3D devem ser fixadas apenas após a montagem e verificação do sistem
 
 ![Proteção dos Componentes Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Prote%C3%A7%C3%A3o%20dos%20Componentes.png)
 
-### **Placa de fixação dos componentes eletrônicos e objeto cortante**
+#### **Placa de fixação dos componentes eletrônicos e objeto cortante**
 
 ![Placa de Fixação Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Placa%20de%20Fixa%C3%A7%C3%A3o.png)
 
