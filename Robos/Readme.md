@@ -170,34 +170,55 @@ As peças 3D devem ser fixadas apenas após a montagem e verificação do sistem
 
 É fundamental garantir que todos os fios estejam corretamente isolados para evitar curtos-circuitos, e que a bateria esteja firmemente fixada para evitar deslocamentos durante a operação.
 
+#### **Materiais necessários para o primeiro robô**
+
 ![Montagem01 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Imagens/Sprint%2002/montagem%2001.jpg)
+
+#### **Protótipo do Robô**
 
 ![Montagem02 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Imagens/Sprint%2002/montagem%2002.jpg)
 
+#### **Primeiro robô com os escudos**
+
 ![Montagem03 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Imagens/Sprint%2002/montagem%2003.jpg.png)
+
+#### **Primeiro robô com os escudos e espetos**
 
 ![Montagem04 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2bf241f2e1c9ccacf361542be05a59a60655c07b/Robos/Imagens/Sprint%2002/montagem%2004.png)
 
+#### **Primeiro robô e Segundo robô**
+
 ![Montagem05 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Imagens/Sprint%2002/Imagem1.png)
+
+#### **Componentes do segundo robô**
 
 ![Montagem06 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Imagens/Sprint%2002/Imagem2.png)
 
+#### **Componentes fixados**
+
 ![Montagem07 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Imagens/Sprint%2002/Imagem3.png)
 
+#### **Fita Isolante para evitar curto-circuito**
+
 ![Montagem08 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Imagens/Sprint%2002/Imagem4.png)
+
+#### **Segundo robô pronto**
 
 ![Montagem09 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/2774e00963bb024ee74d273326cd067a3b055106/Robos/Imagens/Sprint%2002/Imagem5.png)
 
 
 ### **Desenhos Técnicos**
 
-Haste:
+#### **Haste de fixação do balão**
+
 ![Haste Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Haste.png)
 
-Proteção dos Componentes:
+#### **Módulo de proteção dos componentes eletrônicos**
+
 ![Proteção dos Componentes Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Prote%C3%A7%C3%A3o%20dos%20Componentes.png)
 
-Placa de Fixação:
+### **Placa de fixação dos componentes eletrônicos e objeto cortante**
+
 ![Placa de Fixação Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Placa%20de%20Fixa%C3%A7%C3%A3o.png)
 
 ### **Códigos e Algoritmos**
