@@ -166,7 +166,7 @@ As peças 3D devem ser fixadas apenas após a montagem e verificação do sistem
 - Conectar os fios de acordo com o esquema elétrico (recomenda-se uso de Fritzing);
 - Soldar conexões, se necessário;
 - Transferir o código para a placa controladora;
--Testar funcionamento completo antes da fixação definitiva.
+- Testar funcionamento completo antes da fixação definitiva.
 
 É fundamental garantir que todos os fios estejam corretamente isolados para evitar curtos-circuitos, e que a bateria esteja firmemente fixada para evitar deslocamentos durante a operação.
 
@@ -191,12 +191,13 @@ As peças 3D devem ser fixadas apenas após a montagem e verificação do sistem
 
 ### **Desenhos Técnicos**
 
+Haste:
 ![Haste Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Haste.png)
 
-![Escudo Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Escudo.png)
-
+Proteção dos Componentes:
 ![Proteção dos Componentes Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Prote%C3%A7%C3%A3o%20dos%20Componentes.png)
 
+Placa de Fixação:
 ![Placa de Fixação Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/d9441467d6a5b8fd41e0e2ef7bc7d15372660ef6/Robos/Imagens/Sprint%2002/Placa%20de%20Fixa%C3%A7%C3%A3o.png)
 
 ### **Códigos e Algoritmos**
@@ -206,7 +207,6 @@ Foram desenvolvidas versões diferentes do código para ESP32 e Arduino, com con
 - Mapeamento de comandos via Bluetooth;
 - Controle PWM para ajuste de velocidade dos motores;
 - Lógica de movimentação baseada em comandos direcionais (frente, ré, giro esquerdo/direito);
-- Comandos de ativação do sistema de ataque.
 
 ![Codigo01 Imagem](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5b15182cb1cc6b82b046ccdb4ed3a210d2fbfd19/Robos/Imagens/Sprint%2002/codigo%2001.png)
 
@@ -248,7 +248,7 @@ Foram realizados vídeos para documentação e análise de falhas. Os resultados
 ### **Manual de Operação**
 
 - Ligar o robô e ativar o Bluetooth;
-- Abrir o aplicativo "SmartCar" ou versão personalizada via MIT App Inventor;
+- Abrir o aplicativo "Controle Remoto Robô" ou versão personalizada via MIT App Inventor;
 - Emparelhar com o robô;
 
 Utilizar os botões direcionais:
