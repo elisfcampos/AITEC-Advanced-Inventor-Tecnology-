@@ -163,7 +163,7 @@ Assim sendo, multiplica-se o resultado por 8 (precisaremos de 8 pedaços iguais 
 
 Para o cálculo para 1 Tampo: 700 mm x 950 mm x 3mm, converter para metros -> 0,7m * 0,003m *0,95m = 0,001995 metros cúbicos. 
 Agora para encontrar quanto pesa, multiplica-se por 700kg/m3 -> 0,001995 metros cúbicos x 700kg/m3 = 1,3965 kg/m3. 
-Assim sendo, multiplica-se o resultado por 8 (precisaremos de 8 pedaços iguais para a montagem total, perfazendo o equivalente a 4 molduras), 
+Assim sendo, multiplica-se o resultado por 4 (precisaremos de 4 pedaços iguais para a montagem total, perfazendo o equivalente a 4 molduras), 
 1,3965 kg/m3 x 4, então chegamos ao resultado parcial de Laterais Maiores = *5,586 Kg* 
 
 Somando todas os subtotais, chegamos a um total geral, *8,568 Kg/m3* + *6,468 Kg/m3* + *5,586 Kg/m3* = 20,622 Kg/m3
