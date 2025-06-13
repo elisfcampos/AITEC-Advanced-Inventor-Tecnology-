@@ -438,6 +438,6 @@ Este trabalho de manufatura foi uma oportunidade valiosa para consolidar as comp
 Aplicar esses conhecimentos em projetos futuros, explorando técnicas de **fabricação digital** (corte a laser, impressão 3D) e aprimorando a eficiência na prototipagem.  
 
 **GitHub do Projeto:**  
-🔗 [AITEC - Advanced Inventor Technology](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/cc0292f8b79ad934b5821cc0d7886d055a4fe127/Arena)  
+🔗 [AITEC - Advanced Inventor Technology](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-.git)  
 
 *"O maior aprendizado foi transformar ideias abstratas em soluções tangíveis, unindo criatividade e técnica."*  
