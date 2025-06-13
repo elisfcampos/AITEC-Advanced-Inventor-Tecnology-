@@ -54,9 +54,9 @@ Segue abaixo um Cronograma Macro.
 
 | Tarefas | Colaborador | Início | Fim |
 |---------|------------|--------|-----|
-| ☐ Últimos Ajustes | Elisângela/Gabriel | 30/05/2025 | 10/06/2025 |
-| ☐ Entrega de Relatório Final | Elisângela/Gabriel | 10/06/2025 | 13/06/2025 |
-| ☐ Documentação e Apresentação Final | Elisângela/Gabriel | 12/06/2025 | 13/06/2025 |
+| ✅ Últimos Ajustes | Elisângela/Gabriel | 30/05/2025 | 10/06/2025 |
+| ✅ Entrega de Relatório Final | Elisângela/Gabriel | 10/06/2025 | 13/06/2025 |
+| ✅ Documentação e Apresentação Final | Elisângela/Gabriel | 12/06/2025 | 13/06/2025 |
 
 ### 🤖 Robô
 
