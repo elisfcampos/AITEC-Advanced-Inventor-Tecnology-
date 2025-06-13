@@ -88,14 +88,14 @@ Para acelerarmos nosso processo de desenvolvimento, bem como apresentar melhores
 # Projeto - Executivo - Arena Montável
 
 *Arena montável em 4 partes - Elisângela* 
+
 Iniciei as pesquisas sobre tipos de arena repassando em tipos diferentes formas geométricas diferentes.
 
 <img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/1da728ade8a0ed2d799ce1871028cec03b60d300/Arena/PesquisasSprint03.jpg" alt="📝 Pesquisa03" width="400">
 
 **📝 Pesquisa Sprint03 - [PesquisasSprint03.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/PesquisasSprint03.pdf)** \
-**📝 Pesquisa Sprint04 - [PesquisasSprint04.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/PesquisasSprint04.pdf)** \
-**📝 Pesquisa PVC - [CotaçãoArenaPVC_E_Case02.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/0bf8c67d3c38fad3088b9d4ace955203c106a189/Arena/Cota%C3%A7%C3%A3oArenaPVC_E_Case02.pdf)** 
-
+**📝 Pesquisa Sprint04 - [PesquisasSprint04.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/PesquisasSprint04.pdf)** 
+<br>
 
 Simulação de tipos diferentes de arenas. 
 
@@ -109,8 +109,8 @@ Deparei-me com o trabalho de Akemi Hijioka, MINKA - Casa dos Imigrantes Japonese
 
 **📝 Téc. Japonesa de Encaixes** - [TecnicaJaponesaEncaixes_Preco_Material.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/012598030548f933b031d4ada0934b22d4aa9673/Arena/TecnicaJaponesaEncaixes_Preco_Material.pdf)    
 
-Desenvolvi primeiramente um modelo em isopor, para testar os encaixes e facilitar o entendimento da geometria. \
-
+Desenvolvi primeiramente um modelo em isopor, para testar os encaixes e facilitar o entendimento da geometria.  \
+<br>
 <img src="https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/5dd4d3c5eff254ff4315eda18d01ad57893f8b3a/Arena/ModeloIsoporEncaixe.gif" alt="📸 modelo em isopor" width="400" />  
 **📸 modelo em isopor**
 
@@ -139,7 +139,7 @@ A próxima etapa foi desenvolver os croquis das 4 partes da Arena
 
 
 **Pesquisa de preço e peso estimado do projeto**  \
-Para este projeto o tipo de material mais adequado é a madeira maciça, considerando a madeira Pinus, porém o custo é maior que o MDF, *quanto ao peso é **praticamente** o mesmo*, usando com referência 700kg/cm3.
+Para este projeto o tipo de material mais adequado é a madeira maciça, considerando a madeira Pinus, porém o custo é maior que o MDF, *quanto ao peso é **praticamente** o mesmo*, usando como referência 700kg/cm3.
 
 *Madeira Maciça* 
 
@@ -163,7 +163,7 @@ Assim sendo, multiplica-se o resultado por 8 (precisaremos de 8 pedaços iguais 
 
 Para o cálculo para 1 Tampo: 700 mm x 950 mm x 3mm, converter para metros -> 0,7m * 0,003m *0,95m = 0,001995 metros cúbicos. 
 Agora para encontrar quanto pesa, multiplica-se por 700kg/m3 -> 0,001995 metros cúbicos x 700kg/m3 = 1,3965 kg/m3. 
-Assim sendo, multiplica-se o resultado por 4 (precisaremos de 4 pedaços iguais para a montagem total, perfazendo o equivalente a 4 molduras), 
+Assim sendo, multiplica-se o resultado por 8 (precisaremos de 8 pedaços iguais para a montagem total, perfazendo o equivalente a 4 molduras), 
 1,3965 kg/m3 x 4, então chegamos ao resultado parcial de Laterais Maiores = *5,586 Kg* 
 
 Somando todas os subtotais, chegamos a um total geral, *8,568 Kg/m3* + *6,468 Kg/m3* + *5,586 Kg/m3* = 20,622 Kg/m3
@@ -184,14 +184,18 @@ Mercado Livre -> https://produto.mercadolivre.com.br/MLB-5279765650-1-und-placa-
 Foram consideradas as dimensões aproximadas ao projeto devido a disponibilidade do material.\
 Disponíveis da chapa: 3000 mm comprimento x 300 mm largura x 34 mm espessura. Serão Necessárias 6 chapas de R$148,88 cada num total de R$893,28.
 
+---
+
+
 *MDF*  
 
-Consideradas as dimensões:\
+Consideradas as dimensões: 
+<br>
 
-Laterais Maiores - Dimensões: 1020 mm x 50 mm de altura e 30 mm espessura, 8 pedaços nestas dimensões.\ 
-
-Laterais Menores - Dimensões: 770mm x 50mm x 34 mm, 8 pedaços nestas dimensões, 8 pedaços nestas dimensões.\ 
-
+Laterais Maiores - Dimensões: 1020 mm x 50 mm de altura e 30 mm espessura, 8 pedaços nestas dimensões. 
+<br>
+Laterais Menores - Dimensões: 770mm x 50mm x 34 mm, 8 pedaços nestas dimensões, 8 pedaços nestas dimensões. 
+<br>
 Tampo - Serão necessárias 4 chapas de MDF para compor a Arena Montável, cada chapa com as dimensões de: 700 mm x 950 mm x 3mm espessura.  
 
 Para as laterais da Arena usando uma chapa de MDF nas dimensões de 2750mm x 1850mm x 30mm, e cortarmos no sentido do tamanho de 1850mm:
@@ -204,6 +208,135 @@ Cotado pelo site:\
 Leo Madeiras -> https://www.leomadeiras.com.br/p/10280495/mdf-cru-eucalipto-fsc-30mm-2750x1850mm-grandes-marcas#wrapper 
 
 Mercado Livre -> https://produto.mercadolivre.com.br/MLB-5279765650-1-und-placa-chapa-mdf-cru-100x70-3mm-quadros-artesanato-_JM?matt_tool=24771223&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22442948850&matt_ad_group_id=177452015745&matt_match_type=&matt_network=g&matt_device=c&matt_creative=746682045806&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=255988597&matt_product_id=MLB5279765650&matt_product_partition_id=613677686816&matt_target_id=aud-1966857867496:pla-613677686816&cq_src=google_ads&cq_cmp=22442948850&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22442948850&gbraid=0AAAAAD93qcBIZ1MOj4zX2_qYnpqC2j72Z&gclid=Cj0KCQjwxdXBBhDEARIsAAUkP6iQH7yoWOeL0jL6eQu4FAayqdRW5d36lbdt9U6bzeXGjVyeCcmOPl0aAt45EALw_wcB
+
+---
+
+*Pesquisa para tipos de Arenas Simples com uma Chapa no Chão*
+
+**Chapa MDF**
+
+Cálculo do Peso:
+
+**Área da chapa:**  
+- Comprimento: 2750 mm = 2,75 m  
+- Largura: 1850 mm = 1,85 m  
+- Área = 2,75 m × 1,85 m = **5,0875 m²**  
+
+**Volume da chapa:**  
+- Espessura: 3 mm = 0,003 m  
+- Volume = Área × Espessura = 5,0875 m² × 0,003 m = **0,0152625 m³**  
+
+**Peso total em kg (usando densidade 700 kg/m³):**  
+- Peso = Volume × Densidade = 0,0152625 m³ × 700 kg/m³ ≈ **10,68 kg**  
+
+Custo:
+- **MDF Cru Miolo Claro 3mm 2750x1850mm** = R\$ 54,90  
+- **Frete transportadora (3 dias úteis)** = R\$ 29,90  
+- **TOTAL:** R\$ 84,80  
+
+**Cotação:**  
+[Leo Madeiras - MDF Cru 3mm](https://www.leomadeiras.com.br/p/10280509/mdf-cru-miolo-claro-3mm-2750x1850mm-grandes-marcas?gclid=CjwKCAjw9anCBhAWEiwAqBJ-c5ZLebqBS3IVJ1DCuEUtyZvF8C2uAfOK7TnDlRCQYeQ9znBezUYO9BoCY_AQAvD_BwE#wrapper)  
+
+---
+
+ **Chapa Compensado (Paricá 4mm)**
+
+Dados Técnicos:
+- **Densidade média do Paricá:** 400–500 kg/m³ *(madeira leve, comum em compensados econômicos)*  
+- **Dimensões:** 2200 mm (2,2m) × 1600 mm (1,6m) × 4 mm (0,004m)  
+- **Densidade adotada:** 450 kg/m³  
+
+Cálculo do Peso:
+**Área da chapa:**  
+2,2 m × 1,6 m = **3,52 m²**  
+
+**Volume:**  
+3,52 m² × 0,004 m = **0,01408 m³**  
+
+**Peso (kg):**  
+0,01408 m³ × 450 kg/m³ = **6,336 kg**  
+
+**Peso Total:**  
+≈ **6,3 kg** *(considerando densidade de 450 kg/m³)*  
+
+Custo:
+- **Compensado Paricá 4mm 2200x1600mm** = R\$ 121,90  
+- **Frete transportadora (3 dias úteis)** = R\$ 29,90  
+- **TOTAL:** R\$ 151,80  
+
+**Cotação:**  
+[Leo Madeiras - Compensado Paricá](https://www.leomadeiras.com.br/p/10287505/compensado-parica-4mm-2200x1600mm-100-parica-leo?gclid=CjwKCAjw9anCBhAWEiwAqBJ-cxYkPjMC69c2s1vXfAmfHH1uxJtS5m_fZx8sAYuyE5vJInC-99hNHRoChGUQAvD_BwE#wrapper)  
+
+Referências:
+- [ABNT (1997) - Densidade do Paricá](https://www.ipef.br/publicacoes/scientia/nr110/cap02.pdf)  
+- [Vídeos sobre Compensado](https://www.google.com/search?q=compensado+pinus+3mm+videos)  
+
+---
+
+**Chapa PSAI (Poliestireno de Alto Impacto)**
+
+Cálculo do Peso:
+**Densidade do PSAI:** 1,04–1,06 g/cm³ *(adotado 1,05 g/cm³)*  
+
+**Volume da Chapa:**  
+- Área = 2m × 1m = **2 m²**  
+- Espessura = 3mm = **0,003 m**  
+- Volume = 2 m² × 0,003 m = **0,006 m³**  
+
+**Conversão para cm³:**  
+0,006 m³ × 1.000.000 = **6.000 cm³**  
+
+**Peso em Gramas:**  
+6.000 cm³ × 1,05 g/cm³ = **6.300 g**  
+
+**Peso em Quilos (kg):**  
+6.300 g ÷ 1.000 = **6,3 kg**  
+
+**Peso Total:**  
+Chapa de PSAI 2m x 1m x 3mm ≈ **6,3 kg**  
+
+Custo:
+- **Chapa PS Branco 2x1m (3mm)** = R\$ 120,00  
+- **Frete Braspress (4 dias úteis)** = R\$ 100,87  
+- **TOTAL:** R\$ 220,87  
+
+**Cotação:**  
+[Fixcom - Chapa PSAI](https://www.fixcom.com.br/chapa-ps-branco-placa-poliestireno-plastico-2x1-metros-3mm)  
+
+Referências:
+- [Processo de Termoformagem em PSAI (YouTube)](https://youtu.be/bZKVWhN_Agk?t=3)  
+- [Polybrasil - Poliestireno de Alto Impacto](https://polybrasil.com.br/poliestireno-de-alto-impacto/)  
+
+---
+
+**Tubos em PVC**
+
+Cálculo do Peso:
+**Peso do Cano PVC 40mm x 7m:**  
+- Peso por metro: ≈ 0,45 kg/m *(média para PVC 40mm)*  
+- Peso total: 7 m × 0,45 kg/m = **3,15 kg**  
+
+**Peso dos Joelhos 90° (4 unidades):**  
+- Peso por joelho: ≈ 0,08 kg/un  
+- Peso total: 4 × 0,08 kg = **0,32 kg**  
+
+**Peso Total da Estrutura:**  
+3,15 kg (cano) + 0,32 kg (joelhos) = **3,47 kg**  
+
+Custo:
+- **Joelho 90° PVC 40mm (4 unidades)** = R\$ 4,80  
+- **Cano PVC 40mm (3m)** = R\$ 50,70  
+- **Frete (1 dia útil)** = R\$ 21,90  
+- **TOTAL:** R\$ 77,40  
+
+**Cotação:**  
+[Leroy Merlin](https://www.leroymerlin.com.br/)  
+**📝 Cotação PVC - [CotaçãoArenaPVC_E_Case02.pdf](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/blob/0bf8c67d3c38fad3088b9d4ace955203c106a189/Arena/Cota%C3%A7%C3%A3oArenaPVC_E_Case02.pdf)** 
+
+ Dados Técnicos:
+- **Fabricantes de referência:**  
+  - [Tigre](http://www.tigre.com.br)  
+  - [Amanco](http://www.amanco.com.br)  
 
 
 
