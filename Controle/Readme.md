@@ -49,8 +49,8 @@ Os campos da tabela abaixo são separadas pela barra, como está disposta logo a
 |---------|------------|--------|-----|------|
 | ✅ Prototipo finalizado, comunição e progração funcionando  | Heloísa / José | 30/05/2025 | 17/06/25 | 17 |
 | ✅ Feira de Soluções : Prototipo funcionando  | Heloísa / José | 17/06/25 |17/06/25 | 00 |
-| ✅ Finalização do projeto, sistemas integrados e funcionando  | Heloísa / José | 16/06/25 | 17/06/25 | 01 |
-| ✅ Documentação/ Apresentação  | Heloísa / José | 17/06/25 | 16/06/25| 01 |
+| ✅ Finalização do projeto, sistemas integrados e funcionando  | Heloísa / José | 12/06/25 | 13/06/25 | 01 |
+| ✅ Documentação/ Apresentação  | Heloísa / José | 12/06/25 | 13/06/25| 01 |
 
 # Projeto Executivo
 
