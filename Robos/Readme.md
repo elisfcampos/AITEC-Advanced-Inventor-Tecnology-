@@ -294,6 +294,86 @@ O controle foi projetado para ser intuitivo e compatível com dispositivos Andro
 | ✅ Finalização do Cronograma até entrega sprint 3 | Kaike Anjos e João Pedro  | 09/05/2025 | 29/05/2025 | 20 |
 | ✅ Resumo de Atividades  | João Pedro | 23/03/2025 | 29/04/2025 | 06 |
 
+# **Manual de Montagem – Robô Estoura-Balão**
+
+## **Materiais Necessários**
+
+**Eletrônicos:**
+
+- 1x Placa ESP32 ou Arduino UNO;
+- 1x Módulo Ponte H L298N;
+- 2x Motores DC com redução (3–6V);
+- 1x Bateria LiPo 11.1V 1500mAh;
+- Fios jumper (macho/macho);
+
+**Estrutura:**
+
+- Conjunto de peças impressas em 3D (base, suporte eletrônico, para-choques)
+- Parafusos, porcas e espaçadores
+- 2x Espeto de ataque 
+- Ferramentas Recomendadas
+- Ferro de solda (opcional)
+- Chave Philips pequena
+- Alicate de corte
+- Fita dupla face ou braçadeiras
+- Etapas de Montagem
+  
+## **Passo a passo**
+
+**1. Preparação Inicial:**
+   
+- Imprima todas as peças do chassi e suportes com PLA usando resolução de 0,28 mm e 15% de preenchimento.
+- Limpe os furos e bordas após a impressão para facilitar o encaixe e montagem.
+
+**2. Montagem da Estrutura 3D:**
+
+- Monte a base do robô utilizando os encaixes das peças impressas.
+- Fixe os suportes laterais para os motores.
+- Instale a proteção da bateria (aerofólio) e a capa superior (capô e para-choque).
+
+**3. Instalação Mecânica**
+
+- Posicione os motores nos encaixes laterais e parafuse.
+- Encaixe o espeto de ataque na parte frontal da estrutura e fixe com parafusos.
+- Utilize espaçadores, se necessário, para nivelar os componentes sobre o chassi.
+
+**4. Montagem Eletrônica**
+
+- Posicione a placa ESP32 (ou Arduino) no suporte superior impresso.
+- Conecte os motores ao driver L298N seguindo o esquema de controle de dois motores.
+- Ligue o regulador LM2596 à bateria LiPo e configure a saída para 5V.
+- Conecte os fios do driver ao microcontrolador (IN1, IN2, IN3, IN4, ENA, ENB).
+
+**5. Programação**
+
+- Abra o código no Arduino IDE.
+- Carregue o código para a ESP32 ou Arduino.
+- Certifique-se de que o do Bluetooth esteja conectado.
+
+**6. Teste de Funcionamento**
+
+- Ligue o robô.
+- Ative o Bluetooth no celular e abra o app "SmartCar".
+- Emparelhe com o nome do robô.
+
+**Teste os comandos:**
+
+- Frente: ↑
+- Trás: ↓
+- Esquerda: ←
+- Direita: →
+
+**Observações Finais:**
+
+- Certifique-se de que todos os fios estejam firmemente conectados.
+- Use protetores impressos para evitar danos aos componentes.
+- Em caso de falha de conexão, reinicie a placa e o aplicativo.
+- Para melhores resultados, mantenha a estrutura alinhada e os parafusos bem fixados.
+
+Esse manual foi desenvolvido para tornar o processo de montagem direto e acessível, utilizando exclusivamente estruturas 3D, componentes acessíveis e ferramentas simples.
+
+
+
 ## Cronograma 04 - Entrega 13/06/2025 
 
 | Tarefas | Colaborador | Início | Fim | Dias |
