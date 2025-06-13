@@ -45,10 +45,10 @@
 ### Sprint 04 - 13/06/25
 | Tarefas | Colaborador | Progresso | Início | Fim |
 |---------|------------|--------|-----|------|
-| Montagem de documentos finais | Eric | 85% | 02/06/25 | xx/xx/xx |
-| Organização final do GitHub | Eric/João Vitor | 90% | 02/06/25 | 13/06/25 |
+| Montagem de documentos finais | Eric | 100% | 02/06/25 | xx/xx/xx |
+| Organização final do GitHub | Eric/João Vitor | 100% | 02/06/25 | 13/06/25 |
 
 ### FEIRA DE SOLUÇÕES!🎉 - 17/06/25
 | Tarefas | Colaborador | Progresso | Início | Fim |
 |---------|------------|--------|-----|------|
-| Apresentação do projeto "V0" | Eric/João Vitor | 00% | 17/06/25 | 17/06/25 |
+| Apresentação do projeto "V0" | Eric/João Vitor | 100% | 17/06/25 | 17/06/25 |
