@@ -300,7 +300,7 @@ O controle foi projetado para ser intuitivo e compatível com dispositivos Andro
 |---------|------------|--------|-----|------|
 | ✅ Finalização do segundo robô | João Pedro | 25/05/2025 | 05/06/2025 | 10 |
 | ✅ Visualização dos Testes do Robô com o segundo robô | João Pedro e Kaike | 05/06/2025 | 12/06/2025 | 07 |
-| ✅ Correção do Projeto Executivo  | João Pedro | 28/05/2025 | 12/05/2025 | 17 |
+| ✅ Correção do Projeto Executivo  | João Pedro | 28/05/2025 | 12/06/2025 | 17 |
 | ✅ Finalização Esquema Eletrico | Kaike Anjos e João Pedro  | 09/06/2025 | 13/06/2025 | 04 |
 | ✅ Finalização do Manual de Montagem| Kaike Anjos e João Pedro  | 09/06/2025 | 13/06/2025 | 04 |
 | ✅ Finalização do Cronograma até entrega sprint 4 | Kaike Anjos e João Pedro  | 09/06/2025 | 13/06/2025 | 04 |
