@@ -6,7 +6,7 @@
 
 O objetivo deste projeto é o desenvolvimento de uma arena para competição de robôs. A arena de robôs será projetada para competições de robôs remoto controladas, incluindo um placar para marcação de pontos, bem como um cronômetro para controle das partidas. Os robôs serão diferenciados por cor para identificação e divisão de times. Haverá um controle remoto para cada robô. O placar será controlado por botões inseridos na lateral da mesa. As regras serão estabelecidas para uma melhor organização das partidas e controladas por um juiz que será da nossa equipe.
 
-## 🎯 Objetivos
+## 🎯 Objetivos	
 
 Construção de uma arena interativa para a competição de robôs:\
   desenvolvimento do robô para a competição de estourar balão;\
@@ -85,6 +85,18 @@ Segue abaixo um Cronograma Macro.
 | ✅ Finalização do Cronograma até entrega sprint 3 | Kaike Anjos e João Pedro  | 09/05/2025 | 29/05/2025 | 20 |
 | ✅ Resumo de Atividades  | João Pedro | 23/03/2025 | 29/04/2025 | 06 |
 
+#### Entrega 04 - Relatório Final 13/06/2025 
+
+| Tarefas | Colaborador | Início | Fim | Dias |
+|---------|------------|--------|-----|------|
+| ✅ Finalização do segundo robô | João Pedro | 25/05/2025 | 05/06/2025 | 10 |
+| ✅ Visualização dos Testes do Robô com o segundo robô | João Pedro e Kaike | 05/06/2025 | 12/06/2025 | 07 |
+| ✅ Correção do Projeto Executivo  | João Pedro | 28/05/2025 | 12/06/2025 | 17 |
+| ✅ Finalização Esquema Elétrico | Kaike Anjos e João Pedro  | 09/06/2025 | 13/06/2025 | 04 |
+| ✅ Finalização do Manual de Montagem| Kaike Anjos e João Pedro  | 09/06/2025 | 13/06/2025 | 04 |
+| ✅ Finalização do Cronograma até entrega sprint 4 | Kaike Anjos e João Pedro  | 09/06/2025 | 13/06/2025 | 04 |
+| ✅ Resumo de Atividades  | João Pedro | 06/06/2025 | 13/06/2025 | 07 |
+
 ### 🎮 Controle
 
 #### Entrega 1 - Pré-Projeto
@@ -106,60 +118,61 @@ Segue abaixo um Cronograma Macro.
 
 #### Entrega 3 - Projeto Executivo
 
-| Tarefas | Colaborador | Início | Fim |
-|---------|------------|--------|-----|
-|  Testes iniciais de componentes e programação| Heloisa / José | 07/04/2025 | 18/04/2025 |
-|  Montagem de um circuito para teste | Heloisa / José | 16/04/2025 | 02/05/2025 |
-|  Ajustes de programação | Heloisa / José | 21/04/2025 | 02/05/2025 |
-|  Testes e incio da configuração do bluettoth | Heloisa / José | 05/05/2025 | 16/05/2025 |
-|  Modelagem da case para colocar os componentes | Heloisa / José | 14/05/2025 | 20/05/2025 |
-|  Documentação/ Apresentação | Heloisa / José | 19/05/2025 | 23/05/2025 |
+| Tarefas | Colaborador | Início | Fim | Dias |
+|---------|------------|--------|-----|------|
+| ✅ Testes iniciais de componentes e programação  | Heloísa / José | 07/04/2025 | 18/04/2025 | 11 |
+| ✅ Montagem de um circuito para teste  | Heloísa / José | 16/04/2025 | 02/05/2025 | 16 |
+| ✅ Ajustes de programação  | Heloísa / José | 21/04/2025 | 02/05/2025 | 11 |
+| ✅ Testes e incio da configuração do bluetooth | Heloísa / José | 05/05/2025 | 16/05/2025 | 11 |
+| ✅ Modelagem da case para colocar os componentes | Heloísa / José | 14/05/2025 | 20/05/2025 | 06 |
+| ✅ Documentação/ Apresentação  | Heloísa / José | 19/05/2025 | 30/05/2025 | 11 |
+
 
 #### Entrega 4 - Relatório Final
 
-| Tarefas | Colaborador | Início | Fim |
-|---------|------------|--------|-----|
-|  Prototipo montado e teste de conexão do modulo bluetooth | Heloisa / José | 26/05/2025 | 30/05/2025 |
-|  Projeto monatado e funcionado| Heloisa / José | 02/06/2025 | 06/06/2025 |
-|  Documentação/ Apresentação final | Heloisa / José | 09/06/2025 | 13/06/2025 |
+| Tarefas | Colaborador | Início | Fim | Dias |
+|---------|------------|--------|-----|------|
+| ✅ Prototipo finalizado, comunição e progração funcionando  | Heloísa / José | 30/05/2025 | 17/06/25 | 17 |
+| ✅ Feira de Soluções : Prototipo funcionando  | Heloísa / José | 17/06/25 |17/06/25 | 00 |
+| ✅ Finalização do projeto, sistemas integrados e funcionando  | Heloísa / José | 12/06/25 | 13/06/25 | 01 |
+| ✅ Documentação/ Apresentação  | Heloísa / José | 12/06/25 | 13/06/25| 01 |
 
 ### 📊 Placar
 
 #### Sprint 01 - 14/03/25
-| Tarefa | Colaborador | Progresso | Início | Fim |
-|--------|-------------|-----------|--------|-----|
-| Formação da Dupla | Eric/João Vitor | 100% | 28/02/25 | 01/03/25 |
-| Pesquisa Inicial | Eric/João Vitor | 100% | 28/02/25 | 05/03/25 |
-| Brainstorm da Dupla | Eric/João Vitor | 100% | 28/02/25 | 06/03/25 |
-| Organização do GitHub (Placar) | Eric/João Vitor | 100% | 28/02/25 | 12/03/25 |
+| Tarefas | Colaborador | Progresso | Início | Fim |
+|---------|------------|--------|-----|------|
+| Formação da dupla  | Eric/João Vitor | 100% | 28/02/25 | 01/03/25 |
+| Pesquisa inicial | Eric/João Vitor | 100% | 28/02/25 | 05/03/25 |
+| Brainstorm da dubla | Eric/João Vitor | 100% | 28/02/25 | 06/03/25 |
+| Organização do GitHub | Eric/João Vitor | 100% | 28/02/25 | 12/03/25 | 
 
 #### Sprint 02 - 04/04/25
-| Tarefa | Colaborador | Progresso | Início | Fim |
-|--------|-------------|-----------|--------|-----|
-| Cronograma do Placar | Eric/João Vitor | 50% | 17/03/25 | 17/03/25 |
-| Estudo das Regras | Eric/João Vitor | 100% | 17/03/25 | 17/03/25 |
-| Estudo de materiais e componentes | Eric/João Vitor | 100% | 17/03/25 | 17/03/25 |
-| Organização do GitHub (Placar) | Eric/João Vitor | 100% | 17/03/25 | 17/03/25 |
+| Tarefas | Colaborador | Progresso | Início | Fim |
+|---------|------------|--------|-----|------|
+| Cronograma do placar  | Eric/João Vitor | 100% | 17/03/25 | 20/03/25 |
+| Estudo das regras | Eric/João Vitor | 100% | 17/03/25 | 18/03/25 |
+| Estudos dos materiais e componentes | Eric/João Vitor | 100% | 18/03/25 | 20/03/25 |
+| Estudos sobre a programação | Eric/João Vitor | 100% | 22/03/25 | 25/03/25 |
+| Organização do GitHub | Eric/João Vitor | 100% | 17/03/25 | 02/04/25 |
 
 #### Sprint 03 - 30/05/25
-| Tarefa | Colaborador | Progresso |
-|--------|-------------|-----------|
-| Primeira montagem do projeto | Eric/João Vitor | 100% |
-| Testes da programação no placar | Eric/João Vitor | 100% |
-| Organização do GitHub (Placar) | Eric/João Vitor | 75% |
- 
+| Tarefas | Colaborador | Progresso | Início | Fim |
+|---------|------------|--------|-----|------|
+| Primeira montagem do projeto | João Vitor/Eric | 100% | 11/05/25 | 16/05/25 |
+| Teste da programação no placar | João Vitor | 100% | 16/05/25 | 29/05/25 |
+| Organização do GitHub | Eric/João Vitor | 100% | 11/05/25 | 26/05/25 |
+
 #### Sprint 04 - 13/06/25
-| Tarefa | Colaborador | Progresso |
-|--------|-------------|-----------|
-| Montagem de documentações finais | - | 65% |
-| Organização do GitHub (Placar) Completo | Eric/João Vitor | 50% |
+| Tarefas | Colaborador | Progresso | Início | Fim |
+|---------|------------|--------|-----|------|
+| Montagem de documentos finais | Eric | 100% | 02/06/25 | xx/xx/xx |
+| Organização final do GitHub | Eric/João Vitor | 100% | 02/06/25 | 13/06/25 |
 
-#### Feira de Soluções - 17/06/25
-| Tarefa | Colaborador | Progresso |
-|--------|-------------|-----------|
-| Apresentação do projeto "V0" | Eric/João Vitor | 0% |
-| Organização do GitHub (Placar) | Eric/João Vitor | 0% |
-
+#### FEIRA DE SOLUÇÕES!🎉 - 17/06/25
+| Tarefas | Colaborador | Progresso | Início | Fim |
+|---------|------------|--------|-----|------|
+| Apresentação do projeto "V0" | Eric/João Vitor | 100% | 17/06/25 | 17/06/25 |
 
 
 **Para acesso ao cronograma detalhado acesse a pasta relativa ao subsistema**, informações em 📂 Estrutura do Repositório logo abaixo\
@@ -205,7 +218,7 @@ O projeto é desenvolvido pelos seguintes integrantes:
 ## 🔗 Links Úteis
 
 - 🔗 Repositório no GitHub: [AITEC-Advanced-Inventor-Tecnology](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-.git)
-- 📜 Documentação e Regulamento: [github](*será inserido quando finalizado*)
+- 📜 Regulamento: [Regras da Competição](https://github.com/elisfcampos/AITEC-Advanced-Inventor-Tecnology-/tree/19aa483005960317688082cd63d60086b5f691ab/Docs/Regras%20da%20competi%C3%A7%C3%A3o)
 - 🎥 Demonstração do Projeto: (*Adicionaremos o link para vídeos, se houver*)
 
 ## 📞 Contato
