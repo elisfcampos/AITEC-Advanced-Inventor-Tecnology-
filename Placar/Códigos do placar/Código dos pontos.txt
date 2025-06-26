@@ -1,0 +1,76 @@
+
+
+Código que mostra somente dar e tirar pontos do display duplo
+
+
+
+#include <ShiftRegister74HC595.h>
+
+// Pinos do 74HC595 para o display do round
+#define SDI2 10
+#define SCLK2 9
+#define LOAD2 8
+
+// Pinos dos botões
+#define BUTTON_PIN_INCREMENT_ROUND 3  // Botão para incrementar o round
+#define BUTTON_PIN_DECREMENT_ROUND 4  // Botão para decrementar o round
+
+// Inicializa o registrador para 2 dígitos (2 x 7 segmentos)
+ShiftRegister74HC595<2> sr1(SDI2, SCLK2, LOAD2);
+
+// Vetor com os padrões dos dígitos 0 a 9 para display de 7 segmentos
+uint8_t digits[] = {
+  B11000000, // 0
+  B11111001, // 1
+  B10100100, // 2
+  B10110000, // 3
+  B10011001, // 4
+  B10010010, // 5
+  B10000010, // 6
+  B11111000, // 7
+  B10000000, // 8
+  B10010000  // 9
+};
+
+int currentRound = 1;  // Round começa em 1
+
+// Função para mostrar número de 2 dígitos no display
+void showNumber(ShiftRegister74HC595<2>& sr, int num) {
+  int digit2 = num % 10;            // unidades
+  int digit1 = (num / 10) % 10;     // dezenas
+  uint8_t numberToPrint[] = {digits[digit1], digits[digit2]};
+  sr.setAll(numberToPrint);
+}
+
+void setup() {
+  pinMode(BUTTON_PIN_INCREMENT_ROUND, INPUT_PULLUP);
+  pinMode(BUTTON_PIN_DECREMENT_ROUND, INPUT_PULLUP);
+
+  showNumber(sr1, currentRound); // Exibe o round inicial
+}
+
+void loop() {
+  // Botão para incrementar o round
+  if (digitalRead(BUTTON_PIN_INCREMENT_ROUND) == LOW) {
+    delay(50);  // antirrebote
+    if (digitalRead(BUTTON_PIN_INCREMENT_ROUND) == LOW) {
+      if (currentRound < 4) {
+        currentRound++;
+      }
+      showNumber(sr1, currentRound);
+      while (digitalRead(BUTTON_PIN_INCREMENT_ROUND) == LOW);  // Espera soltar
+    }
+  }
+
+  // Botão para decrementar o round
+  if (digitalRead(BUTTON_PIN_DECREMENT_ROUND) == LOW) {
+    delay(50);  // antirrebote
+    if (digitalRead(BUTTON_PIN_DECREMENT_ROUND) == LOW) {
+      if (currentRound > 1) {
+        currentRound--;
+      }
+      showNumber(sr1, currentRound);
+      while (digitalRead(BUTTON_PIN_DECREMENT_ROUND) == LOW);  // Espera soltar
+    }
+  }
+}

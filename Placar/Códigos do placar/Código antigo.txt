@@ -1,0 +1,153 @@
+
+
+Código que mostra o código criado no semestre passado.
+
+
+#include <ShiftRegister74HC595.h>
+
+// Pinos do 74HC595
+#define SDI2 10
+#define SCLK2 9
+#define LOAD2 8
+#define SDI3 7
+#define SCLK3 6
+#define LOAD3 5
+
+// Pinos dos botões
+#define BUTTON_PIN_START_STOP 0   // Botão de iniciar/parar
+#define BUTTON_PIN_RESET 1        // Botão de reset
+#define BUTTON_EXTRA_TIME 2      // Botão de tempo extra
+#define BUTTON_PIN_INCREMENT_ROUND 3  // Botão para incrementar o round
+#define BUTTON_PIN_DECREMENT_ROUND 4  // Botão para decrementar o round
+
+int currentRound = 1;  // Inicializa o round em 1
+bool isRunning = false;
+bool extraTimeEnabled = false;  // Variável que indica se o tempo extra foi ativado
+unsigned long startTime = 0;
+unsigned long pausedTime = 0;
+int displayTime = 0;  // Variável para exibir o tempo no display
+
+ShiftRegister74HC595<2> sr1(SDI2, SCLK2, LOAD2);
+ShiftRegister74HC595<2> sr3(SDI3, SCLK3, LOAD3);
+
+// Padrões para os dígitos de 0 a 9 no display de 7 segmentos
+uint8_t digits[] = {
+  B11000000, // 0
+  B11111001, // 1
+  B10100100, // 2
+  B10110000, // 3
+  B10011001, // 4
+  B10010010, // 5
+  B10000010, // 6
+  B11111000, // 7
+  B10000000, // 8
+  B10010000  // 9
+};
+
+void showNumber(ShiftRegister74HC595<2>& sr, int num) {
+  int digit2 = num % 10;
+  int digit1 = (num / 10) % 10;
+  uint8_t numberToPrint[] = {digits[digit1], digits[digit2]};
+  sr.setAll(numberToPrint);
+}
+
+void setup() {
+  pinMode(BUTTON_PIN_START_STOP, INPUT_PULLUP);
+  pinMode(BUTTON_PIN_RESET, INPUT_PULLUP);
+  pinMode(BUTTON_EXTRA_TIME, INPUT_PULLUP);
+  pinMode(BUTTON_PIN_INCREMENT_ROUND, INPUT_PULLUP);
+  pinMode(BUTTON_PIN_DECREMENT_ROUND, INPUT_PULLUP);
+
+  // Inicializa o Round 1 no display
+  showNumber(sr1, currentRound);
+  showNumber(sr3, 0); // Inicializa o display de tempo com zero
+}
+
+void loop() {
+  // Botão de iniciar/parar
+  if (digitalRead(BUTTON_PIN_START_STOP) == LOW) {
+    delay(50);  // Antirrebote
+    if (digitalRead(BUTTON_PIN_START_STOP) == LOW) {
+      isRunning = !isRunning;
+      if (isRunning) {
+        startTime = millis() - pausedTime;  // Retorna ao tempo de onde parou
+      } else {
+        pausedTime = millis() - startTime;  // Salva o tempo pausado
+      }
+      while (digitalRead(BUTTON_PIN_START_STOP) == LOW);  // Espera soltar o botão
+    }
+  }
+
+  // Botão de reset
+  if (digitalRead(BUTTON_PIN_RESET) == LOW) {
+    delay(50);  // Antirrebote
+    if (digitalRead(BUTTON_PIN_RESET) == LOW) {
+      isRunning = false;
+      pausedTime = 0;
+      startTime = 0;
+      displayTime = 0;
+      extraTimeEnabled = false;
+      showNumber(sr3, displayTime);
+      while (digitalRead(BUTTON_PIN_RESET) == LOW);  // Espera soltar o botão
+    }
+  }
+
+  // Botão de tempo extra
+  if (digitalRead(BUTTON_EXTRA_TIME) == LOW) {
+    delay(50);  // Antirrebote
+    if (digitalRead(BUTTON_EXTRA_TIME) == LOW) {
+      // Só permite adicionar tempo quando exatamente em 60 segundos e parado
+      if (displayTime == 60 && !extraTimeEnabled && !isRunning) {
+        extraTimeEnabled = true;
+        startTime = millis() - 60000;  // Mantém o tempo em 60 segundos
+        pausedTime = 60000;
+        isRunning = true;
+        while (digitalRead(BUTTON_EXTRA_TIME) == LOW);  // Espera soltar o botão
+      }
+    }
+  }
+
+  // Botão para incrementar o round
+  if (digitalRead(BUTTON_PIN_INCREMENT_ROUND) == LOW) {
+    delay(50);  // Antirrebote
+    if (digitalRead(BUTTON_PIN_INCREMENT_ROUND) == LOW) {
+      if (currentRound < 4) {
+        currentRound++;
+      }
+      showNumber(sr1, currentRound);
+      while (digitalRead(BUTTON_PIN_INCREMENT_ROUND) == LOW);  // Espera soltar o botão
+    }
+  }
+
+  // Botão para decrementar o round
+  if (digitalRead(BUTTON_PIN_DECREMENT_ROUND) == LOW) {
+    delay(50);  // Antirrebote
+    if (digitalRead(BUTTON_PIN_DECREMENT_ROUND) == LOW) {
+      if (currentRound > 1) {
+        currentRound--;
+      }
+      showNumber(sr1, currentRound);
+      while (digitalRead(BUTTON_PIN_DECREMENT_ROUND) == LOW);  // Espera soltar o botão
+    }
+  }
+
+  // Controle do temporizador
+  if (isRunning) {
+    unsigned long currentTime = millis();
+    displayTime = (currentTime - startTime) / 1000;  // Converte para segundos
+
+    // Verifica se atingiu 60 segundos sem tempo extra ativado
+    if (displayTime >= 60 && !extraTimeEnabled) {
+      displayTime = 60;
+      isRunning = false;
+    }
+    // Verifica se atingiu 90 segundos com tempo extra ativado
+    else if (displayTime >= 90 && extraTimeEnabled) {
+      displayTime = 90;
+      isRunning = false;
+    }
+
+    // Atualiza o display com o tempo atual
+    showNumber(sr3, displayTime);
+  }
+}

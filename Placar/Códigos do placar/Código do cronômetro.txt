@@ -1,0 +1,79 @@
+
+
+Código que mostra um cronômetro com as funções de iniciar e para o tempo
+ que o tempo tenha aduração de até dois minutos e tem um acréscimo de mais um minuto
+ e o botão de reset para um display de 4 dígitos.
+
+
+#include <TM1637Display.h>
+
+#define CLK 2   // Pino do relógio do display
+#define DIO 3   // Pino de dados do display
+#define BTN_START_STOP 4  // Botão iniciar/parar
+#define BTN_ADD_TIME 5    // Botão acrescentar tempo
+#define BTN_RESET 6       // Botão zerar
+
+TM1637Display display(CLK, DIO);
+
+unsigned long previousMillis = 0;
+bool running = false;
+int defaultMaxTime = 120; // Tempo máximo inicial (2 minutos)
+int maxTime = 120;
+int seconds = 0;
+
+void setup() {
+    pinMode(BTN_START_STOP, INPUT_PULLUP);
+    pinMode(BTN_ADD_TIME, INPUT_PULLUP);
+    pinMode(BTN_RESET, INPUT_PULLUP);
+    display.setBrightness(7);
+    display.showNumberDecEx(0, 0x40, true); // Exibe 00:00
+}
+
+void loop() {
+    // Botão Iniciar/Parar
+    if (digitalRead(BTN_START_STOP) == LOW) {
+        delay(200);
+        running = !running;
+        while (digitalRead(BTN_START_STOP) == LOW); // Aguarda o botão ser solto
+    }
+
+    // Botão Acrescentar Tempo (Permite acréscimo mesmo após o cronômetro parar e reinicia se já parou)
+    if (digitalRead(BTN_ADD_TIME) == LOW) {
+        delay(200);
+        if (maxTime < 180) {
+            maxTime += 60; // Acrescenta 1 minuto até o limite de 3 minutos
+            if (!running && seconds >= maxTime - 60) {
+                running = true; // Reinicia a contagem se já tiver parado
+            }
+        }
+        while (digitalRead(BTN_ADD_TIME) == LOW); // Aguarda o botão ser solto
+    }
+
+    // Botão Resetar (Volta ao tempo padrão de 2 minutos)
+    if (digitalRead(BTN_RESET) == LOW) {
+        delay(200);
+        running = false;
+        seconds = 0;
+        maxTime = defaultMaxTime; // Reseta o tempo máximo para 2 minutos
+        while (digitalRead(BTN_RESET) == LOW); // Aguarda o botão ser solto
+    }
+
+    // Atualiza o tempo
+    if (running && millis() - previousMillis >= 1000) {
+        previousMillis = millis();
+        if (seconds < maxTime) {
+            seconds++;
+        } else {
+            running = false; // Para automaticamente ao atingir o limite
+        }
+    }
+
+    displayTime(seconds);
+}
+
+void displayTime(int sec) {
+    int minutes = sec / 60;
+    int secRemain = sec % 60;
+    int timeToDisplay = (minutes * 100) + secRemain;
+    display.showNumberDecEx(timeToDisplay, 0x40, true);
+}

@@ -1,0 +1,139 @@
+
+
+Código que mostra somente dar e tirar pontos para 3 display duplo au mesmo tempo.
+
+
+#include <ShiftRegister74HC595.h>
+
+// ==== Pinos do 74HC595 para cada grupo de displays ====
+#define SDI_ROUND 10
+#define SCLK_ROUND 9
+#define LOAD_ROUND 8
+
+#define SDI_TIME1 7
+#define SCLK_TIME1 6
+#define LOAD_TIME1 5
+
+#define SDI_TIME2 13
+#define SCLK_TIME2 12
+#define LOAD_TIME2 11
+
+// ==== Botões Round ====
+#define BTN_ROUND_INC 2
+#define BTN_ROUND_DEC 3
+
+// ==== Botões Time 1 ====
+#define BTN_TIME1_INC 4
+#define BTN_TIME1_DEC 5
+
+// ==== Botões Time 2 ====
+#define BTN_TIME2_INC 6
+#define BTN_TIME2_DEC 7
+
+// ==== Instâncias dos registradores de deslocamento ====
+ShiftRegister74HC595<2> srRound(SDI_ROUND, SCLK_ROUND, LOAD_ROUND);
+ShiftRegister74HC595<2> srTime1(SDI_TIME1, SCLK_TIME1, LOAD_TIME1);
+ShiftRegister74HC595<2> srTime2(SDI_TIME2, SCLK_TIME2, LOAD_TIME2);
+
+// ==== Tabela de padrões para os dígitos 0 a 9 ====
+uint8_t digits[] = {
+  B11000000, // 0
+  B11111001, // 1
+  B10100100, // 2
+  B10110000, // 3
+  B10011001, // 4
+  B10010010, // 5
+  B10000010, // 6
+  B11111000, // 7
+  B10000000, // 8
+  B10010000  // 9
+};
+
+// ==== Variáveis ====
+int roundValue = 0;
+int time1Value = 0;
+int time2Value = 0;
+
+// ==== Função para exibir números nos displays ====
+void showNumber(ShiftRegister74HC595<2>& sr, int num) {
+  int unidades = num % 10;
+  int dezenas = (num / 10) % 10;
+  uint8_t toPrint[] = {digits[dezenas], digits[unidades]};
+  sr.setAll(toPrint);
+}
+
+// ==== Setup ====
+void setup() {
+  // Configura pinos dos botões como entradas com pull-up
+  pinMode(BTN_ROUND_INC, INPUT_PULLUP);
+  pinMode(BTN_ROUND_DEC, INPUT_PULLUP);
+  pinMode(BTN_TIME1_INC, INPUT_PULLUP);
+  pinMode(BTN_TIME1_DEC, INPUT_PULLUP);
+  pinMode(BTN_TIME2_INC, INPUT_PULLUP);
+  pinMode(BTN_TIME2_DEC, INPUT_PULLUP);
+
+  // Exibe valores iniciais
+  showNumber(srRound, roundValue);
+  showNumber(srTime1, time1Value);
+  showNumber(srTime2, time2Value);
+}
+
+// ==== Loop principal ====
+void loop() {
+  // --- Controle do Round ---
+  if (digitalRead(BTN_ROUND_INC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_ROUND_INC) == LOW && roundValue < 99) {
+      roundValue++;
+      showNumber(srRound, roundValue);
+      while (digitalRead(BTN_ROUND_INC) == LOW);
+    }
+  }
+
+  if (digitalRead(BTN_ROUND_DEC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_ROUND_DEC) == LOW && roundValue > 0) {
+      roundValue--;
+      showNumber(srRound, roundValue);
+      while (digitalRead(BTN_ROUND_DEC) == LOW);
+    }
+  }
+
+  // --- Controle do Time 1 ---
+  if (digitalRead(BTN_TIME1_INC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_TIME1_INC) == LOW && time1Value < 99) {
+      time1Value++;
+      showNumber(srTime1, time1Value);
+      while (digitalRead(BTN_TIME1_INC) == LOW);
+    }
+  }
+
+  if (digitalRead(BTN_TIME1_DEC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_TIME1_DEC) == LOW && time1Value > 0) {
+      time1Value--;
+      showNumber(srTime1, time1Value);
+      while (digitalRead(BTN_TIME1_DEC) == LOW);
+    }
+  }
+
+  // --- Controle do Time 2 ---
+  if (digitalRead(BTN_TIME2_INC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_TIME2_INC) == LOW && time2Value < 99) {
+      time2Value++;
+      showNumber(srTime2, time2Value);
+      while (digitalRead(BTN_TIME2_INC) == LOW);
+    }
+  }
+
+  if (digitalRead(BTN_TIME2_DEC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_TIME2_DEC) == LOW && time2Value > 0) {
+      time2Value--;
+      showNumber(srTime2, time2Value);
+      while (digitalRead(BTN_TIME2_DEC) == LOW);
+    }
+  }
+}

@@ -1,0 +1,198 @@
+
+
+Código final que mostra a junção do dois códigos do ponto e do cronômetro juntos funcionando.
+
+
+#include <ShiftRegister74HC595.h>
+#include <TM1637Display.h>
+
+// ==== Pinos do 74HC595 ====
+#define SDI_ROUND 39
+#define SCLK_ROUND 41
+#define LOAD_ROUND 43
+
+#define SDI_TIME1 48
+#define SCLK_TIME1 50
+#define LOAD_TIME1 52
+
+#define SDI_TIME2 8
+#define SCLK_TIME2 9
+#define LOAD_TIME2 10
+
+// ==== Pinos do TM1637 (TROCADO PARA EVITAR CONFLITO) ====
+#define CLK 2
+#define DIO 3
+
+// ==== Botões Round ====
+#define BTN_ROUND_INC 22
+#define BTN_ROUND_DEC 23
+
+// ==== Botões Time 1 ====
+#define BTN_TIME1_INC 26
+#define BTN_TIME1_DEC 27
+
+// ==== Botões Time 2 ====
+#define BTN_TIME2_INC 30
+#define BTN_TIME2_DEC 31
+
+// ==== Botões do Cronômetro ====
+#define BTN_START_STOP 35
+#define BTN_ADD_TIME 34
+#define BTN_RESET 44
+
+// ==== Instâncias ====
+ShiftRegister74HC595<2> srRound(SDI_ROUND, SCLK_ROUND, LOAD_ROUND);
+ShiftRegister74HC595<2> srTime1(SDI_TIME1, SCLK_TIME1, LOAD_TIME1);
+ShiftRegister74HC595<2> srTime2(SDI_TIME2, SCLK_TIME2, LOAD_TIME2);
+TM1637Display display(CLK, DIO);
+
+// ==== Dígitos 7 segmentos ====
+uint8_t digits[] = {
+  B11000000, B11111001, B10100100, B10110000, B10011001,
+  B10010010, B10000010, B11111000, B10000000, B10010000
+};
+
+// ==== Variáveis ====
+int roundValue = 0;
+int time1Value = 0;
+int time2Value = 0;
+
+unsigned long previousMillis = 0;
+bool running = false;
+int defaultMaxTime = 120;
+int maxTime = 120;
+int seconds = 0;
+
+// ==== Funções ====
+void showNumber(ShiftRegister74HC595<2>& sr, int num) {
+  int unidades = num % 10;
+  int dezenas = (num / 10) % 10;
+  uint8_t toPrint[] = {digits[dezenas], digits[unidades]};
+  sr.setAll(toPrint);
+}
+
+void displayTime(int sec) {
+  int minutes = sec / 60;
+  int secRemain = sec % 60;
+  int timeToDisplay = (minutes * 100) + secRemain;
+  display.showNumberDecEx(timeToDisplay, 0x40, true);
+}
+
+// ==== Setup ====
+void setup() {
+  pinMode(BTN_ROUND_INC, INPUT_PULLUP);
+  pinMode(BTN_ROUND_DEC, INPUT_PULLUP);
+  pinMode(BTN_TIME1_INC, INPUT_PULLUP);
+  pinMode(BTN_TIME1_DEC, INPUT_PULLUP);
+  pinMode(BTN_TIME2_INC, INPUT_PULLUP);
+  pinMode(BTN_TIME2_DEC, INPUT_PULLUP);
+  pinMode(BTN_START_STOP, INPUT_PULLUP);
+  pinMode(BTN_ADD_TIME, INPUT_PULLUP);
+  pinMode(BTN_RESET, INPUT_PULLUP);
+
+  display.setBrightness(7);
+  display.showNumberDecEx(0, 0x40, true);
+
+  showNumber(srRound, roundValue);
+  showNumber(srTime1, time1Value);
+  showNumber(srTime2, time2Value);
+}
+
+// ==== Loop ====
+void loop() {
+  // Controle Round
+  if (digitalRead(BTN_ROUND_INC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_ROUND_INC) == LOW && roundValue < 99) {
+      roundValue++;
+      showNumber(srRound, roundValue);
+      while (digitalRead(BTN_ROUND_INC) == LOW);
+    }
+  }
+
+  if (digitalRead(BTN_ROUND_DEC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_ROUND_DEC) == LOW && roundValue > 0) {
+      roundValue--;
+      showNumber(srRound, roundValue);
+      while (digitalRead(BTN_ROUND_DEC) == LOW);
+    }
+  }
+
+  // Controle Time 1
+  if (digitalRead(BTN_TIME1_INC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_TIME1_INC) == LOW && time1Value < 99) {
+      time1Value++;
+      showNumber(srTime1, time1Value);
+      while (digitalRead(BTN_TIME1_INC) == LOW);
+    }
+  }
+
+  if (digitalRead(BTN_TIME1_DEC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_TIME1_DEC) == LOW && time1Value > 0) {
+      time1Value--;
+      showNumber(srTime1, time1Value);
+      while (digitalRead(BTN_TIME1_DEC) == LOW);
+    }
+  }
+
+  // Controle Time 2
+  if (digitalRead(BTN_TIME2_INC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_TIME2_INC) == LOW && time2Value < 99) {
+      time2Value++;
+      showNumber(srTime2, time2Value);
+      while (digitalRead(BTN_TIME2_INC) == LOW);
+    }
+  }
+
+  if (digitalRead(BTN_TIME2_DEC) == LOW) {
+    delay(50);
+    if (digitalRead(BTN_TIME2_DEC) == LOW && time2Value > 0) {
+      time2Value--;
+      showNumber(srTime2, time2Value);
+      while (digitalRead(BTN_TIME2_DEC) == LOW);
+    }
+  }
+
+  // Controle do cronômetro
+  if (digitalRead(BTN_START_STOP) == LOW) {
+    delay(200);
+    running = !running;
+    while (digitalRead(BTN_START_STOP) == LOW);
+  }
+
+  if (digitalRead(BTN_ADD_TIME) == LOW) {
+    delay(200);
+    if (maxTime < 180) {
+      maxTime += 60;
+      if (!running && seconds >= maxTime - 60) {
+        running = true;
+      }
+    }
+    while (digitalRead(BTN_ADD_TIME) == LOW);
+  }
+
+  if (digitalRead(BTN_RESET) == LOW) {
+    delay(200);
+    running = false;
+    seconds = 0;
+    maxTime = defaultMaxTime;
+    while (digitalRead(BTN_RESET) == LOW);
+  }
+
+  // Atualização do cronômetro
+  unsigned long currentMillis = millis();
+  if (running && currentMillis - previousMillis >= 1000) {
+    previousMillis = currentMillis;
+    if (seconds < maxTime) {
+      seconds++;
+    } else {
+      running = false;
+    }
+  }
+
+  displayTime(seconds);
+}
